@@ -15,7 +15,6 @@ description: Adhip Kashyap - Full Stack Software Engineer experienced in modern 
 
 
 Results-driven Full Stack Engineer with 4+ years of experience designing and developing high-performance web applications. Available immediately. Open to relocation.
-test build
 ---
 
 ## Technologies and Languages
