@@ -1,30 +1,84 @@
-# Pandoc-Résumé
+# Resume Reloaded
 
-Write a résumé in markdown and convert to PDF, DOCX, and HTML.
-Pandoc converts `template.md` into several standalone formats with similar styles.
+A modern, professional resume generator that converts markdown into beautifully formatted PDF and HTML versions. Create both an interactive web version and a traditional PDF resume from a single markdown source.
+
+![Resume Preview](demo/demo.gif)
+## Features
+
+- Single source of truth: Maintain one markdown file for all resume formats
+- Multiple output formats: Generate PDF and HTML versions
+- Customizable styling: Separate CSS files for web and print versions
+- Interactive web version: Allows you to have interactive elements on the web version while hiding it on the PDF version.
+- Responsive design: Looks great on all devices
+- Smart Printing: Printing automatically uses the PDF version.
+
+## Prerequisites
+
+- [Pandoc](https://pandoc.org/installing.html) - Universal document converter
+- [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) - HTML to PDF converter
+
+## Project Structure
+
+```
+.
+├── resume.md          # Your resume content in markdown
+├── style.css         # CSS for PDF output
+├── screen.css        # CSS for web output
+├── build.sh          # Build script for generating outputs
+└── demo/             # Example outputs and screenshots
+```
+
+## Getting Started
+
+1. Clone this repository
+2. Install the prerequisites
+3. Edit `resume.md` with your information
+4. Customize styles in `style.css` (PDF) and `screen.css` (web)
 
 ## Usage
 
-Edit `template.md` to add content. Edit `style.css` to change the HTML style and `reference.docx` for the DOCX style.
+Generate your resume using the build script:
 
-Run one of these commands to convert `template.md`:
+```bash
+# Generate HTML version (web)
+./build.sh resume html
 
-```
-build.sh template pdf
-build.sh template docx
-build.sh template html
-```
-
-To generate all formats, run
-
-```
-all.sh template
+# Generate PDF version
+./build.sh resume pdf
 ```
 
-### DOCX, HTML
+### Customization
 
-These output formats may need further processing.
+- **Content**: Edit `resume.md` using markdown syntax
+- **PDF Styling**: Modify `style.css` for the PDF output
+- **Web Styling**: Adjust `screen.css` for the web version
 
-## Sample
+### Markdown Format
 
-![PDF rendered to PNG](template.png)
+Your resume markdown should include:
+
+```markdown
+---
+title: Your Name
+lang: en-US
+description: Your professional summary
+---
+
+# Your Name
+Contact details...
+
+## Experience
+Your work history...
+```
+
+## Examples
+
+Check out the demo directory for sample outputs:
+Web View:
+![Resume Preview](demo/resume_html.png)
+PDF View:
+![Resume Preview](demo/resume_pdf.png)
+
+## License
+
+MIT
