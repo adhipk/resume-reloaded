@@ -1,20 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+}
+@page{
+  margin:0;
+  padding:0;
+}
 body {
-  max-width: 65em;
-  margin: 5em auto;
-  font-family: "Source Code Pro", "Ubuntu Mono", monospace, sans
-  font-size: 10px;
+  font-family: 'Geist', sans-serif;
+  font-size: 10pt;
+  margin: 0 0.8in;
+  padding-top: 0.3in;
+  padding-bottom: 0.3in;
 }
 
-@media only screen and (min-width: 480px) {
-  body {
-    font-size: 12px;
-  }
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 0.5em 0;
 }
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 14px;
-  }
+
+h1, h2, h3 {
+  margin: 0;
 }
-@media print {
-    font-size: 10pt;
+
+h2 {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 0.4em;
+  margin-bottom: 0.1em;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: -1em;
+}
+
+.header p {
+  font-size: 10pt;
+  margin: 0;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+.section {
+  margin-top: 1em;
+}
+
+ul {
+  padding-left: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+.contact{
+  display: flex;
+  gap:10px;
+  border-bottom: 1px solid red;
+}
+.contact-item{
+  margin:5px;
+}
+.download-button{
+  display: none;
 }

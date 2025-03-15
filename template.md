@@ -13,7 +13,7 @@ header-includes:
     - \posttitle{\par\end{center}\vspace{-20pt}}
     - \setlength\parskip{0pt}
     - \setlength\parindent{0pt}
-mainfont: Ubuntu Mono 
+mainfont: Fira Code
 fontsize: 10pt
 title: Sample Résumé
 ---
