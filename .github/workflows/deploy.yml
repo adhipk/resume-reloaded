@@ -1,0 +1,20 @@
+name: Deploy Resume
+
+on:
+  push:
+    branches:
+      - main  # Change if deploying from another branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: sudo apt-get update && sudo apt-get install -y pandoc weasyprint
+
+      - name: Run Build Script
+        run: ./build.sh resume
