@@ -22,7 +22,7 @@ Results-driven Full Stack Engineer with 4+ years of experience designing and dev
 
 **Languages:** Java, Python, C/C++, TypeScript, Rust, PHP  
 <!-- **Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD   -->
-**Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, 
+**Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI
 **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
 **Machine Learning**: TensorFlow, PyTorch, CNN, Encoder-Decoder Networks, Computer Vision, Natural Language Processing.
 **Other:** Git, Postman, Bash Scripting, Linux, JIRA  
