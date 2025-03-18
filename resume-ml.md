@@ -137,7 +137,7 @@ Jan 2023
 - Designed and trained a MAE-VQ GAN model to perform image segmentation and classification tasks
 - Developed a custom embedding model to create positive and negative prompts for contrastive learning.
 - Benchmarked performace using ResNet and achieved an 10% increase in Recall.
-- 
+
 <div style="display:flex; justify-content:space-between;">
 **LLM Science Exam - Kaggle Competition** 
 
