@@ -14,7 +14,7 @@ description: Adhip Kashyap - Full Stack Software Engineer experienced in modern 
 (602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
 
-##### Results-driven Full Stack Engineer with 4+ years of experience designing and developing high-performance web applications. Available immediately. Open to relocation.
+Results-driven Full Stack Engineer with 4+ years of experience designing and developing high-performance web applications. Available immediately. Open to relocation.
 
 ---
 
