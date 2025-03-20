@@ -40,7 +40,7 @@ Aug 2024 – Present
 *Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe, Clerk, Posthog, Google analytics, Sentry*
 
 - Designed and implemented a full-stack platform for teachers to create, share, and sell language resources – integrating authentication, payments, file management, analytics, and error tracking to serve 1,000+ educators.
-- Developed a cutom RAG solution to enhance search results based on cultural and linguistic relevance.
+- Developed a custom RAG solution to enhance search results based on cultural and linguistic relevance.
 
 
 ### InduzBuy, Bangalore, India  

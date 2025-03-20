@@ -24,7 +24,7 @@ Results-driven Full Stack Engineer with 4+ years of experience designing and dev
 <!-- **Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD   -->
 **Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI.  
 **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
-**Machine Learning**: TensorFlow, PyTorch, CNN, Encoder-Decoder Networks, Computer Vision, Natural Language Processing, numpy, ski-image, OpenCV
+**Machine Learning**: TensorFlow, PyTorch, CNN, Encoder-Decoder Networks, Computer Vision, Natural Language Processing, NumPy, ski-image, OpenCV
 
 ---
 
@@ -40,7 +40,7 @@ Aug 2024 – Present
 *Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe, Clerk, Posthog, Google analytics, Sentry, llama*
 
 - Designed and implemented a full-stack platform for teachers to create, share, and sell language resources – integrating authentication, payments, file management, analytics, and error tracking to serve 1,000+ educators.
-- Developed a cutom RAG solution to enhance search results based on cultural and linguistic relevance.
+- Developed a custom RAG solution to enhance search results based on cultural and linguistic relevance.
 
 
 ### InduzBuy, Bangalore, India  
