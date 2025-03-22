@@ -279,7 +279,7 @@ border-bottom: 1px solid red;
 .contact-item{
 margin:5px;
 }
-.download-button{
+.web-only{
 display: none;
 }}</style>
 </head>
@@ -287,7 +287,7 @@ display: none;
 <header id="title-block-header">
 <h1 class="title">Adhip Kashyap</h1>
 </header>
-<p><button class="download-button" onClick="window.print()">
+<p><button class="download-button web-only" onClick="window.print()">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4" /><path d="M12 18v-6" /><path d="m9 15 3 3 3-3" /></svg>
 <code>Save PDF</code> </button></p>
 <p>(602)-515-5187 | <a href="mailto:adhip.kashyap@gmail.com">adhip.kashyap@gmail.com</a> | <a href="https://adhipk.dev">adhipk.dev</a> | <a href="https://linkedin.com/in/adhip-kashyap">linkedin.com/in/adhip-kashyap</a>
@@ -386,16 +386,6 @@ Bangalore</li>
 </div>
 <hr />
 <h2 id="projects">Projects</h2>
-<!-- <div style="display:flex; justify-content:space-between;">
-**TCR-Epitope Binding Affinity Prediction** 
-
-Sep 2023
-</div>
-
-*CNN, Encoder-Decoder, TensorFlow*
-
-  - Achieved 81% accuracy on 500k+ antigen sequences with a hybrid CNN-encoder-decoder model.
-  - Enhanced recall by 8% to improve immunotherapy research insights.   -->
 <div style="display:flex; justify-content:space-between;">
 <p><strong>Open Source MathNotes Application</strong></p>
 <p>Feb 2025</p>
@@ -415,5 +405,18 @@ handwritten university-level mathematical equations with an accuracy of
 <li>Leveraged 10M+ NYC taxi records and created an ETL pipline to model
 trip patterns using PageRank and hotspot detection.</li>
 </ul>
+<div class="web-only">
+<div style="display:flex; justify-content:space-between;">
+<p><strong>TCR-Epitope Binding Affinity Prediction</strong></p>
+<p>Sep 2023</p>
+</div>
+<p><em>CNN, Encoder-Decoder, TensorFlow</em></p>
+<ul>
+<li>Achieved 81% accuracy on 500k+ antigen sequences with a hybrid
+CNN-encoder-decoder model.</li>
+<li>Enhanced recall by 8% to improve immunotherapy research
+insights.</li>
+</ul>
+</div>
 </body>
 </html>
