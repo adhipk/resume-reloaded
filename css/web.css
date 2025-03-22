@@ -210,6 +210,13 @@
 		border:0px;
 	}
 }
+.print-only{
+	display: none;
+}
+
 @media print{
 	@import url(print.css);
+	.print-only{
+		display: block;
+	}
 }

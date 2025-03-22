@@ -21,9 +21,9 @@ A modern, professional resume generator that converts markdown into beautifully 
 
 ```
 .
-├── resume.md          # Your resume content in markdown
-├── style.css         # CSS for PDF output
-├── screen.css        # CSS for web output
+├── /resumes         # Your resume content in markdown
+├── /css/print.css         # CSS for PDF output
+├── /css/web.css        # CSS for web output
 ├── build.sh          # Build script for generating outputs
 └── demo/             # Example outputs and screenshots
 ```
@@ -33,20 +33,16 @@ A modern, professional resume generator that converts markdown into beautifully 
 1. Clone this repository
 2. Install the prerequisites
 3. Edit `resume.md` with your information
-4. Customize styles in `style.css` (PDF) and `screen.css` (web)
+4. Customize styles in `print.css` (PDF) and `web.css` (web)
 
 ## Usage
 
 Generate your resume using the build script:
 
 ```bash
-# Generate HTML version (web)
-./build.sh resume html
-
-# Generate PDF version
-./build.sh resume pdf
+./build.sh
 ```
-
+This Script builds HTML and PDF
 ### Customization
 
 - **Content**: Edit `resume.md` using markdown syntax
@@ -62,13 +58,17 @@ Your resume markdown should include:
 title: Your Name
 lang: en-US
 description: Your professional summary
+target: name of the output html file (without file extension),  eg backend -> out/backend.html, out/md_file_name.pdf
 ---
 
-# Your Name
-Contact details...
+<div class="web-only">
+    content only appears on the web version
+</div>
 
-## Experience
-Your work history...
+<div class="print-only">
+    content only appears on the pdf version
+</div>
+
 ```
 
 ## Examples
