@@ -14,14 +14,14 @@ description: Adhip Kashyap - Full Stack Software Engineer experienced in modern 
 (602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
 
-Results-driven Full Stack Engineer with 4+ years of experience designing and developing high-performance web applications. Available immediately. Open to relocation.
+Full Stack Engineer with 4 years of experience designing high-performance web applications. Eager to leverage technical expertise to drive innovation and efficiency in software engineering projects.
 
 ---
 
 ## Technologies and Languages
 
 **Languages:** Java, Python, C/C++, TypeScript, Rust, PHP, GoLang, NodeJS.  
-**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.    
+**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.  
 **Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, TensorFlow, PyTorch  
 **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
 **Other:** Git, Postman, Bash Scripting, Linux, JIRA, Test-driven Development.  
@@ -105,7 +105,7 @@ Jan 2019 – Oct 2019
 
 
 ## Projects
-<div style="display:flex; justify-content:space-between;">
+<!-- <div style="display:flex; justify-content:space-between;">
 **TCR-Epitope Binding Affinity Prediction** 
 
 Sep 2023
@@ -114,8 +114,18 @@ Sep 2023
 *CNN, Encoder-Decoder, TensorFlow*
 
   - Achieved 81% accuracy on 500k+ antigen sequences with a hybrid CNN-encoder-decoder model.
-  - Enhanced recall by 8% to improve immunotherapy research insights.  
+  - Enhanced recall by 8% to improve immunotherapy research insights.   -->
 
+<div style="display:flex; justify-content:space-between;">
+**Open Source MathNotes Application** 
+
+Feb 2025
+</div>
+
+*Python,TensorFlow, tldraw, pic2text, Sympy*
+
+- Created an open-source MathNotes application to automatically solve handwritten university-level mathematical equations with an accuracy of 85%.
+  
 <div style="display:flex; justify-content:space-between;">
 **Scalable Data Processing Pipeline** 
 

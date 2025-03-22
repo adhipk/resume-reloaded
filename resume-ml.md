@@ -14,17 +14,18 @@ description: Adhip Kashyap - Full Stack Software Engineer experienced in modern 
 (602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
 
-Results-driven Full Stack Engineer with 4+ years of experience designing and developing high-performance web applications. Available immediately. Open to relocation.
+Experienced Backend Engineer with a strong background in Natural Language Processing and Computer Vision. Eager to leverage my diverse set of skills to build AI applications from initial training to deployment.
 
 <hr>
 
 ## Technologies and Languages
 
 **Languages:** Java, Python, C/C++, TypeScript, Rust, PHP  
-<!-- **Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD   -->
-**Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI.  
-**Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
-**Machine Learning**: TensorFlow, PyTorch, CNN, Encoder-Decoder Networks, Computer Vision, Natural Language Processing, NumPy, ski-image, OpenCV
+**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, Azure, GCP  
+<!-- **Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI.   -->
+<!-- **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite   -->
+**Machine Learning**: TensorFlow, PyTorch, CNN, Encoder-Decoder Networks, Computer Vision, Natural Language Processing, NumPy, ski-image, OpenCV  
+**Other:** Git, Bash, Linux, Cursor, JIRA, Test-driven Development.
 
 ---
 
@@ -135,7 +136,6 @@ Jan 2023
 
 - Designed and trained a MAE-VQ GAN model to perform image segmentation and classification tasks
 - Developed a custom embedding model to create positive and negative prompts for contrastive learning.
-- Benchmarked performace using ResNet and achieved an 10% increase in Recall.
 
 <div style="display:flex; justify-content:space-between;">
 **LLM Science Exam - Kaggle Competition** 

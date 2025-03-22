@@ -211,5 +211,5 @@
 	}
 }
 @media print{
-	@import url(style.css);
+	@import url(print.css);
 }

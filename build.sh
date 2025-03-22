@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-HTML='--standalone --embed-resources --css screen.css'
-PDF='--standalone --embed-resources --css style.css'
+HTML='--standalone --embed-resources --css web.css'
+PDF='--standalone --embed-resources --css print.css'
 ENG='--pdf-engine=weasyprint'
 mkdir -p "${OUTPUT_DIR:-out}"
 OUT="${2:-index}"
