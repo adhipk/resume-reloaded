@@ -2,7 +2,7 @@
 title: Adhip Kashyap
 lang: en-IN
 description: Adhip Kashyap - Full Stack Software Engineer experienced in modern web technologies. Available Immediately, open to relocation.
-target: index
+target: none
 ---
 
 
@@ -12,12 +12,10 @@ target: index
   </button>
 
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Santa Clara, CA | [adhipk.dev](https://adhipk.dev)
-
-[linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) 
+(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) | Santa Clara, CA
 
 
-Full Stack Engineer with 4 years of experience designing high-performance web applications. Eager to leverage technical expertise to drive innovation and efficiency in software engineering projects.
+Machine Learning Engineer with 4 years of experience in applied computer vision and natural language processing. Excited to develop and deploy Codegen and AI productivity tools for better developer experience and to boost efficiency.
 
 ---
 
@@ -25,9 +23,10 @@ Full Stack Engineer with 4 years of experience designing high-performance web ap
 
 **Languages:** Java, Python, C/C++, TypeScript, Rust, PHP, GoLang, NodeJS.  
 **Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.  
-**Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, TensorFlow, PyTorch  
+<!-- **Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, TensorFlow, PyTorch   -->
 **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
-**Other:** Git, Postman, Bash Scripting, Linux, JIRA, Test-driven Development.  
+<!-- **Other:** Git, Postman, Bash Scripting, Linux, JIRA, Test-driven Development.   -->
+**AI Tools:** Cursor, WindSurf, Copilot, OpenHands.  
 
 ---
 
@@ -42,7 +41,7 @@ Aug 2024 – Present
 
 *Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe, Clerk, Posthog, Google analytics, Sentry*
 
-- Designed and implemented a full-stack platform for teachers to create, share, and sell language resources – integrating authentication, payments, file management, analytics, and error tracking to serve 1,000+ educators.
+- Designed and implemented a full-stack platform for teachers to create, share, and sell language resources.
 - Developed a custom RAG solution to enhance search results based on cultural and linguistic relevance.
 
 
@@ -103,11 +102,12 @@ Jan 2019 – Oct 2019
 
 2015 – 2019
 </div>
- 
+
 ---
 
 
-## Projects
+## Projects and Open Source
+- Active member of the Reflex ([github.com/reflex-dev](https://github.com/reflex-dev)) and OpenHands ([github.com/reflex-dev](https://github.com/reflex-dev)) open source Community.
 
 <div style="display:flex; justify-content:space-between;">
 **Open Source MathNotes Application** 
@@ -120,17 +120,6 @@ Feb 2025
 - Created an open-source MathNotes application to automatically solve handwritten university-level mathematical equations with an accuracy of 85%.
   
 <div style="display:flex; justify-content:space-between;">
-**Scalable Data Processing Pipeline** 
-
-Jan 2023
-</div>
-
-*Apache Spark, Kubernetes, Scala, Hadoop, Neo4j*
-
-  - Leveraged 10M+ NYC taxi records and created an ETL pipline to model trip patterns using PageRank and hotspot detection.
-
-<div class="web-only">
-  <div style="display:flex; justify-content:space-between;">
 **TCR-Epitope Binding Affinity Prediction** 
 
 Sep 2023
@@ -141,4 +130,17 @@ Sep 2023
   - Achieved 81% accuracy on 500k+ antigen sequences with a hybrid CNN-encoder-decoder model.
   - Enhanced recall by 8% to improve immunotherapy research insights.  
 
-</div>  
+
+<div class="web-only">
+<div style="display:flex; justify-content:space-between;">
+**Scalable Data Processing Pipeline** 
+
+Jan 2023
+</div>
+
+*Apache Spark, Kubernetes, Scala, Hadoop, Neo4j*
+
+  - Leveraged 10M+ NYC taxi records and created an ETL pipline to model trip patterns using PageRank and hotspot detection.
+  
+</div>
+

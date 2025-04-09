@@ -12,7 +12,7 @@ target: ml
   </button>
 
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
+(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) | Santa Clara, CA
 
 
 Experienced Backend Engineer with a strong background in Natural Language Processing and Computer Vision. Eager to leverage my diverse set of skills to build AI applications from initial training to deployment.

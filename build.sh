@@ -36,6 +36,9 @@ for md_file in ${RESUME_DIR}/*.md; do
             echo "Processing $md_file -> Using base name: $base_name"
             pandoc $HTML $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.html"
             pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.pdf"
+        elif [ "$target" = "none" ]; then
+            echo "Skipping $md_file -> $target"
+            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.pdf"
         else
             echo "Processing $md_file -> HTML: $target, PDF: $base_name"
             pandoc $HTML $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$target.html"
