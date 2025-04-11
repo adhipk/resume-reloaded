@@ -12,9 +12,9 @@ target: index
   </button>
 
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Santa Clara, CA | [adhipk.dev](https://adhipk.dev)
+(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | <!--Bengaluru, Karnataka --> Santa Clara, CA
 
-[linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) 
+ [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) 
 
 
 Full Stack Engineer with 4 years of experience designing high-performance web applications. Eager to leverage technical expertise to drive innovation and efficiency in software engineering projects.
@@ -24,7 +24,7 @@ Full Stack Engineer with 4 years of experience designing high-performance web ap
 ## Technologies and Languages
 
 **Languages:** Java, Python, C/C++, TypeScript, Rust, PHP, GoLang, NodeJS.  
-**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS), DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.  
+**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS),Azure, Databricks,Github CI/CD, DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.  
 **Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, TensorFlow, PyTorch  
 **Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
 **Other:** Git, Postman, Bash Scripting, Linux, JIRA, Test-driven Development.  
@@ -142,3 +142,5 @@ Sep 2023
   - Enhanced recall by 8% to improve immunotherapy research insights.  
 
 </div>  
+
+<script src="../js/theme.js"></script>

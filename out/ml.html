@@ -54,6 +54,36 @@ vertical-align: middle;
 --orange-dim: #d65d0e;
 --my-purple:#3a2d49;
 }
+:root.light {
+--bg_h: #f9f5d7;
+--bg: #fbf1c7;
+--bg_s: #f2e5bc;
+--bg1: #ebdbb2;
+--bg2: #d5c4a1;
+--bg3: #bdae93;
+--bg4: #a89984;
+--fg: #282828;
+--fg1: #3c3836;
+--fg2: #504945;
+--fg3: #665c54;
+--fg4: #7c6f64;
+--red: #9d0006;
+--green: #79740e;
+--yellow: #b57614;
+--blue: #076678;
+--purple: #8f3f71;
+--aqua: #427b58;
+--orange: #af3a03;
+--gray: #928374;
+--red-dim: #cc2412;
+--green-dim: #98971a;
+--yellow-dim: #d79921;
+--blue-dim: #458598;
+--purple-dim: #b16286;
+--aqua-dim: #689d6a;
+--orange-dim: #d65d0e;
+--gray-dim: #7c6f64;
+}
 img {
 max-width: 100%;
 }
@@ -85,6 +115,7 @@ padding: 0 30px;
 min-height: 100vh; 
 display: flex;
 flex-direction: column; 
+transition: background-color 0.3s ease, color 0.3s ease;
 }
 p, ul, ol, dl, table, pre {
 margin-bottom: 1em;
@@ -98,10 +129,10 @@ a {
 text-decoration: none;
 cursor: pointer;
 font-weight: bold;
-color: #ffffff;
+color: var(--fg1);
 }
 a:hover, a:focus {
-color: #d3a459;
+color: var(--orange);
 text-decoration: none;
 }
 hr {
@@ -153,7 +184,7 @@ color: #d7af72;
 font-weight: normal;
 text-decoration: none;
 }
-h2 { font-size: 2.5rem; }
+h2 { font-size: 2.5rem; color: var(--yellow) }
 h3 { font-size: 2rem; }
 h4 { font-size: 1.5rem; }
 h5 { font-size: 0.8rem; }
@@ -187,7 +218,7 @@ stroke:white;
 }
 button:hover{
 background-color: white;
-color:black !important;
+color:black;
 a{
 color:inherit;
 }
@@ -200,6 +231,37 @@ gap:1em;
 justify-content: center;
 border-radius: 1em;
 border:0px;
+}
+
+.theme-toggle {
+position: fixed;
+top: 20px;
+right: 20px;
+background-color: var(--bg);
+color: var(--fg);
+border: 1px solid var(--fg3);
+border-radius: 50%;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+z-index: 1000;
+transition: all 0.3s ease;
+
+}
+.theme-toggle:hover {
+background-color: var(--fg);
+color:var(--bg);
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.theme-toggle svg {
+width: 24px;
+height: 24px;
+fill: currentColor;
+stroke: currentColor;
 }
 }
 .print-only{
@@ -296,9 +358,11 @@ display: block;
 <p><button class="download-button web-only" onClick="window.print()">
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" /><path d="M14 2v4a2 2 0 0 0 2 2h4" /><path d="M12 18v-6" /><path d="m9 15 3 3 3-3" /></svg>
 <code>Save PDF</code> </button></p>
-<p>(602)-515-5187 | <a href="mailto:adhip.kashyap@gmail.com">adhip.kashyap@gmail.com</a> | <a href="https://adhipk.dev">adhipk.dev</a> | <a href="https://linkedin.com/in/adhip-kashyap">linkedin.com/in/adhip-kashyap</a>
-| <a href="https://github.com/adhipk">github.com/adhipk</a> | Santa
-Clara, CA</p>
+<p>(602)-515-5187 | <a href="mailto:adhip.kashyap@gmail.com">adhip.kashyap@gmail.com</a> |
+Santa Clara, CA</p>
+<p><a href="https://adhipk.dev">adhipk.dev</a> | <a href="https://linkedin.com/in/adhip-kashyap">linkedin.com/in/adhip-kashyap</a>
+| <a href="https://github.com/adhipk">github.com/adhipk</a></p>
+<hr>
 <p>Experienced Backend Engineer with a strong background in Natural
 Language Processing and Computer Vision. Eager to leverage my diverse
 set of skills to build AI applications from initial training to
@@ -443,5 +507,6 @@ segmentation and classification tasks</li>
 prompts for contrastive learning.</li>
 </ul>
 </div>
+<script src="../js/theme.js"></script>
 </body>
 </html>

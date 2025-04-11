@@ -7,6 +7,7 @@ PDF='--standalone --embed-resources --css css/print.css'
 ENG='--pdf-engine=weasyprint'
 RESUME_DIR="${RESUME_DIR:-resumes}"
 OUTPUT_DIR="${OUTPUT_DIR:-out}"
+PREFIX="Adhip_Kashyap"
 mkdir -p "$OUTPUT_DIR"
 
 # Function to extract target from frontmatter
@@ -30,19 +31,20 @@ for md_file in ${RESUME_DIR}/*.md; do
     if [ -f "$md_file" ]; then
         base_name=$(basename "$md_file" .md)
         target=$(get_target "$md_file")
-        
+        pdf_name="${PREFIX}_$base_name"
+        echo "pdf $PREFIX"
         # If target is the same as base_name, use base_name for both outputs
         if [ "$target" = "$base_name" ]; then
             echo "Processing $md_file -> Using base name: $base_name"
             pandoc $HTML $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.html"
-            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.pdf"
+            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$pdf_name.pdf"
         elif [ "$target" = "none" ]; then
             echo "Skipping $md_file -> $target"
-            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.pdf"
+            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$pdf_name.pdf"
         else
             echo "Processing $md_file -> HTML: $target, PDF: $base_name"
             pandoc $HTML $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$target.html"
-            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$base_name.pdf"
+            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$pdf_name.pdf"
         fi
     fi
 done 
