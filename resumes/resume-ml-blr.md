@@ -11,15 +11,12 @@ target: ml
     `Save PDF`
   </button>
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Santa Clara, CA 
+(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Bengaluru, Karnataka 
 
 [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) 
 
 
-<hr>
-<!-- Experienced Backend Engineer with a strong background in Natural Language Processing and Computer Vision. Eager to leverage my diverse set of skills to build AI applications from initial training to deployment. -->
-
-Versatile Software Engineer with 4+ years of experience in Backend engineering, Web Development, and Machine Learning (NLP and Computer Vision). Proven track record of designing and deploying high-performance web and AI-driven applications. Eager to harness cross-disciplinary expertise to build scalable, intelligent systems — driving innovation from model training to real-world deployment.
+Versatile Software Engineer with experience across Backend engineering, Web Development, and a strong foundation in AI domains  Natural Language Processing and Computer Vision. Proven track record in designing and deploying high-performance web and AI-driven applications. Eager to harness this cross-disciplinary expertise to build scalable, intelligent systems—driving innovation from model training to real-world deployment.
 <hr>
 
 ## Technologies and Languages
@@ -141,7 +138,7 @@ Jan 2023
 *Pytorch, Tensorflow, RAG, Cohere, LLMs.*
 
 - Achieved top 100 score in LLM Science Exam Kaggle competition by building a DeBERTa-v3 based RAG to answer STEM multiple choice questions.
-- Designed and developed custom knowledge base using Cohere APIs extract relevant data from Wikipedia based on TF-IDF metrics.
+- Designed and developed custom knowledge base using Cohere APIs extract relevant data from Wikipedia.
 
 <div class="web-only">
   

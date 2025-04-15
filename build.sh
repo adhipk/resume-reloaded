@@ -45,6 +45,8 @@ for md_file in ${RESUME_DIR}/*.md; do
             echo "Processing $md_file -> HTML: $target, PDF: $base_name"
             pandoc $HTML $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$target.html"
             pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/$pdf_name.pdf"
+            pandoc $PDF $ENG -t html -f markdown+smart "$md_file" -o "$OUTPUT_DIR/doc.html"
+            pandoc $ENG -t docx -f html "$OUTPUT_DIR/doc.html" -o "$OUTPUT_DIR/docx/$pdf_name.docx"
         fi
     fi
 done 
