@@ -12,12 +12,12 @@ target: index
   </button>
 
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | <!--Bengaluru, Karnataka --> Santa Clara, CA
+(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Thousand Oaks, California
 
- [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk) 
+ [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
 
-Full Stack Engineer with 4 years of experience designing high-performance web applications. Eager to leverage technical expertise to drive innovation and efficiency in software engineering projects.
+AI Software Engineer at Hoag Hospital building production AI systems for healthcare automation. M.S. Computer Science from Arizona State University with expertise in AI systems, backend architecture, and autonomous agent design.
 
 ---
 
@@ -33,11 +33,40 @@ Full Stack Engineer with 4 years of experience designing high-performance web ap
 
 ## Work Experience
 
-### Teaching Solved, Tempe, AZ  
+### Hoag Hospital, Newport Beach, CA
+<div style="display:flex; justify-content:space-between;">
+AI Software Engineer
+
+Oct 2025 – Present
+</div>
+
+*TypeScript, Node.js, Terraform, ElevenLabs, GPT, Deepgram, Vapi, YAML/Markdown Parsers, EHR Epic*
+
+- Developed AI call center agents to automate appointment calls, processing ~3,000 calls with an 80% call deflection rate.
+- Developed custom GitOps to manage agent configs using git version control and automated scripts to deploy, simplifying syncing between dev, stage, and prod environments.
+- Spearheaded development of comprehensive eval harness with automated customer agent simulation evaluated by judge LLM, including scripts to automate test case creation using existing transcripts for regression testing and compliance reporting.
+
+
+### TechAhead, Remote
+<div style="display:flex; justify-content:space-between;">
+Client Solutions Architect
+
+Apr 2025 – Present
+</div>
+
+*System Design, Backend Architecture, AI Integration, Cost Analysis*
+
+- Created technical architecture proposals for potential clients and designed scalable backend systems.
+- Coordinated with clients and developers to ensure alignment on feature development and project requirements.
+- Consulted on AI integration strategies for client projects and developed internal AI tools to automate proposal creation.
+- Calculated and optimized system costs for proposed solutions.
+
+
+### Teaching Solved, Tempe, AZ
 <div style="display:flex; justify-content:space-between;">
 Founding Engineer
 
-Aug 2024 – Present
+Aug 2024 – Mar 2025
 </div>
 
 *Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe, Clerk, Posthog, Google analytics, Sentry*
