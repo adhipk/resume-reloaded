@@ -2,11 +2,20 @@
 
 @media screen{
 	:root {
-		--bg: #242424;
-		--fg: rgba(255, 255, 255, 0.87);
-		--orange: #ff9500;
-		--orange-dim: #e68900;
-		--border: rgba(255, 149, 0, 0.1);
+		/* Gruvbox Dark */
+		--bg: #282828;
+		--bg1: #3c3836;
+		--fg: #ebdbb2;
+		--fg-muted: #a89984;
+		--red: #fb4934;
+		--green: #b8bb26;
+		--yellow: #fabd2f;
+		--blue: #83a598;
+		--purple: #d3869b;
+		--aqua: #8ec07c;
+		--orange: #fe8019;
+		--orange-dim: #d65d0e;
+		--border: #504945;
 	}
 	img {
 		max-width: 100%;
@@ -18,7 +27,7 @@
 	}
 	
 	th {
-		background-color: rgba(255, 149, 0, 0.1);
+		background-color: var(--bg1);
 	}
 	
 	table, th, td {
@@ -61,12 +70,12 @@
 		text-decoration: none;
 		cursor: pointer;
 		font-weight: 500;
-		color: var(--orange);
+		color: var(--blue);
 		transition: color 0.2s ease;
 	}
 
 	a:hover, a:focus {
-		color: var(--orange-dim);
+		color: var(--aqua);
 		text-decoration: underline;
 	}
 	
@@ -115,7 +124,6 @@
 	h1, h2, h3, h4, h5, h6 {
 		line-height: 1.1;
 		font-family: 'Fira Code', monospace;
-		color: var(--orange);
 	}
 
 	h1 {
@@ -130,11 +138,11 @@
 		text-decoration: none;
 	}
 
-	h2 { font-size: 2.5rem; }
-	h3 { font-size: 2rem; }
-	h4 { font-size: 1.5rem; }
-	h5 { font-size: 0.8rem; }
-	h6 { font-size: 0.6rem; }
+	h2 { font-size: 2.5rem; color: var(--yellow); }
+	h3 { font-size: 2rem; color: var(--aqua); }
+	h4 { font-size: 1.5rem; color: var(--purple); }
+	h5 { font-size: 0.8rem; color: var(--fg-muted); }
+	h6 { font-size: 0.6rem; color: var(--fg-muted); }
 	
 	::selection {
 		background: var(--orange);
@@ -142,11 +150,12 @@
 	}
 	
 	pre {
-		background: rgba(0, 0, 0, 0.3);
-		color: #fff;
+		background: var(--bg1);
+		color: var(--fg);
 		padding: 8px 10px;
 		border-radius: 0.4em;
 		overflow-x: auto;
+		border: 1px solid var(--border);
 	}
 	
 	pre code {
@@ -176,7 +185,7 @@
 	button:hover{
 		background-color: var(--orange-dim);
 		transform: translateY(-2px);
-		box-shadow: 0 4px 8px rgba(255, 149, 0, 0.3);
+		box-shadow: 0 4px 8px rgba(254, 128, 25, 0.3);
 	}
 	.download-button{
 		position: fixed;
@@ -201,7 +210,7 @@
 
 	.download-button:hover {
 		transform: translateY(-3px);
-		box-shadow: 0 6px 20px rgba(255, 149, 0, 0.4);
+		box-shadow: 0 6px 20px rgba(254, 128, 25, 0.4);
 		background-color: var(--orange-dim);
 		color: var(--bg);
 		text-decoration: none;
