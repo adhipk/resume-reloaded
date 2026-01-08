@@ -15,7 +15,7 @@ target: index
   </button>
 
 
-(602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Thousand Oaks, California
+[adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Thousand Oaks, California
 
 [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
