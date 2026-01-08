@@ -17,162 +17,96 @@ target: index
 
 (602)-515-5187 | [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Thousand Oaks, California
 
- [adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
-
-
-AI Software Engineer at Hoag Hospital building production AI systems for healthcare automation. M.S. Computer Science from Arizona State University with expertise in AI systems, backend architecture, and autonomous agent design.
+[adhipk.dev](https://adhipk.dev) | [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) | [github.com/adhipk](https://github.com/adhipk)
 
 ---
 
-## Technologies and Languages
+## Skills
 
-**Languages:** Java, Python, C/C++, TypeScript, Rust, PHP, GoLang, NodeJS.  
-**Cloud & DevOps:** AWS (S3, DynamoDB, Lambda, IAM, CloudFormation, SQS, SNS),Azure, Databricks,Github CI/CD, DigitalOcean, Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.  
-**Frameworks & Libraries:** Spring Boot, Next.js, React.js, Django, FastAPI, TensorFlow, PyTorch  
-**Databases:** MySQL, PostgreSQL, MongoDB, Cassandra, DynamoDB, SQLite  
-**Other:** Git, Postman, Bash Scripting, Linux, JIRA, Test-driven Development.  
+**Languages:** Java, Python, C/C++, TypeScript, Rust, GoLang, NodeJS | **Cloud:** AWS, Azure, GCP, Kubernetes, Docker, Terraform | **Frameworks:** Spring Boot, Next.js, React, Django, FastAPI, TensorFlow | **Databases:** PostgreSQL, MongoDB, Redis, Neo4j, DynamoDB
 
 ---
 
-## Work Experience
+## Experience
 
 ### Hoag Hospital, Newport Beach, CA
 <div style="display:flex; justify-content:space-between;">
-AI Software Engineer
+<strong>AI Software Engineer</strong>
 
 Oct 2025 – Present
 </div>
 
-*TypeScript, Node.js, Terraform, ElevenLabs, GPT, Deepgram, Vapi, YAML/Markdown Parsers, EHR Epic*
-
-- Developed AI call center agents to automate appointment calls, processing ~3,000 calls with an 80% call deflection rate.
-- Developed custom GitOps to manage agent configs using git version control and automated scripts to deploy, simplifying syncing between dev, stage, and prod environments.
-- Spearheaded development of comprehensive eval harness with automated customer agent simulation evaluated by judge LLM, including scripts to automate test case creation using existing transcripts for regression testing and compliance reporting.
-
+- Faced with high call center volume, designed and deployed AI voice agents using GPT and Vapi to automate patient appointment scheduling, achieving 80% call deflection across 3,000+ monthly calls.
+- Identified config drift issues across environments; implemented GitOps pipeline with Terraform to manage agent configurations, eliminating deployment inconsistencies between dev, stage, and prod.
+- Needed reliable quality assurance for AI agents; built comprehensive eval harness with LLM-judged simulations, enabling automated regression testing and compliance reporting.
 
 ### TechAhead, Remote
 <div style="display:flex; justify-content:space-between;">
-Client Solutions Architect
+<strong>Client Solutions Architect</strong>
 
 Apr 2025 – Present
 </div>
 
-*System Design, Backend Architecture, AI Integration, Cost Analysis*
-
-- Created technical architecture proposals for potential clients and designed scalable backend systems.
-- Coordinated with clients and developers to ensure alignment on feature development and project requirements.
-- Consulted on AI integration strategies for client projects and developed internal AI tools to automate proposal creation.
-- Calculated and optimized system costs for proposed solutions.
-
+- Tasked with winning new clients, created technical architecture proposals and designed scalable backend systems, contributing to successful client acquisitions.
+- Recognized inefficiency in proposal workflow; developed internal AI tools to automate proposal generation, reducing turnaround time significantly.
 
 ### Teaching Solved, Tempe, AZ
 <div style="display:flex; justify-content:space-between;">
-Founding Engineer
+<strong>Founding Engineer</strong>
 
 Aug 2024 – Mar 2025
 </div>
 
-*Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe, Clerk, Posthog, Google analytics, Sentry*
+- As first engineer, architected and built full-stack platform (Next.js, PostgreSQL, AWS) enabling 1,000+ educators to create, share, and monetize language learning resources.
+- Users struggled to find relevant content; developed custom RAG-based search to surface culturally and linguistically relevant results, improving content discovery.
 
-- Designed and implemented a full-stack platform for teachers to create, share, and sell language resources – integrating authentication, payments, file management, analytics, and error tracking to serve 1,000+ educators.
-- Developed a custom RAG solution to enhance search results based on cultural and linguistic relevance.
-
-
-### InduzBuy, Bangalore, India  
+### InduzBuy, Bangalore, India
 <div style="display:flex; justify-content:space-between;">
-Software Engineer Intern
+<strong>Software Engineer Intern</strong>
 
 May 2023 – Aug 2023
 </div>
 
-*Laravel, EC2, BERT, Python, TensorFlow*
-
-- Improved modularity and cut feature lead time by 20% by migrating from core PHP to Laravel.
-- Reduced data processing time from 30 mins to 30 secs with a 95% accurate BERT-based model.
-- Decreased deployment errors by 40% by automating EC2 deployments via bash scripting.  
-
+- Legacy PHP codebase slowed development; led migration to Laravel framework, cutting feature lead time by 20% and reducing deployment errors by 40%.
+- Manual data processing took 30+ minutes; built BERT-based classification model with 95% accuracy, reducing processing time to 30 seconds.
 
 ### ICICI Lombard GIC, Bangalore, India
 <div style="display:flex; justify-content:space-between;">
-Software Engineer
+<strong>Software Engineer</strong>
 
 Oct 2019 – Aug 2022
 </div>
 
-*Java, Spring Boot, Neo4j, Redis, SQL, React.js, React Native*
-
-- Reduced AWS costs by 30% by migrating a monolith to microservices with auto-scalers.
-- Improved insurance premium computation speed by 40% using a Neo4j-based decision tree.
-- Cut call center revenue loss by 20% during COVID by building a React Native CRM app for sales teams.  
-
-
-### Autoninja, Bangalore, India  
-<div style="display:flex; justify-content:space-between;">
-Software Engineer
-
-Jan 2019 – Oct 2019
-</div>
-
-*Java, Spring Boot, ELK Stack, Sentry*
-
-- Decreased support calls by 20% by developing real-time car delivery tracking.
-- Reduced error response times by 70% by implementing internal ELK dashboards to catch misconfigurations in customer deployments.
-- Cut ticket resolution time by 15% by optimizing customer support processes.  
-
-
+- Infrastructure costs were unsustainable; migrated monolithic application to auto-scaling microservices architecture, reducing AWS costs by 30%.
+- Slow premium calculations frustrated users; implemented Neo4j-based decision tree engine, improving computation speed by 40%.
 
 ---
 
 ## Education
 
 <div style="display:flex; justify-content:space-between;">
-* M.S. Computer Science, Arizona State University, Tempe
+M.S. Computer Science, Arizona State University
 
 2022 – 2024
 </div>
 <div style="display:flex; justify-content:space-between;">
-* B.Sc. Mechanical Engineering (Minor: CS), PES University, Bangalore
+B.Sc. Mechanical Engineering (Minor: CS), PES University
 
 2015 – 2019
 </div>
- 
----
 
+---
 
 ## Projects
 
-<div style="display:flex; justify-content:space-between;">
-**Open Source MathNotes Application** 
+**LibriCasts** ([libricasts.adhipk.dev](https://libricasts.adhipk.dev)) — Built open-source tool integrating LibriVox audiobooks with PocketCasts, serving thousands of users.
 
-Feb 2025
-</div>
-
-*Python,TensorFlow, tldraw, pic2text, Sympy*
-
-- Created an open-source MathNotes application to automatically solve handwritten university-level mathematical equations with an accuracy of 85%.
-  
-<div style="display:flex; justify-content:space-between;">
-**Scalable Data Processing Pipeline** 
-
-Jan 2023
-</div>
-
-*Apache Spark, Kubernetes, Scala, Hadoop, Neo4j*
-
-  - Leveraged 10M+ NYC taxi records and created an ETL pipline to model trip patterns using PageRank and hotspot detection.
+**Downmark** ([downmark.fly.dev](https://downmark.fly.dev)) — Created webpage-to-Markdown converter handling JS-rendered content using Chrome Headless.
 
 <div class="web-only">
-  <div style="display:flex; justify-content:space-between;">
-**TCR-Epitope Binding Affinity Prediction** 
 
-Sep 2023
+**Medical Videos Chatbot** ([Demo](https://medical-videos-chatbot.vercel.app/)) — Interactive chatbot for querying medical video content using NLP.
+
+**Object Detection Benchmark** ([Demo](https://obj-detect-bench.vercel.app/)) — Benchmarking app comparing CNN architectures for on-device detection.
+
 </div>
-
-*CNN, Encoder-Decoder, TensorFlow*
-
-  - Achieved 81% accuracy on 500k+ antigen sequences with a hybrid CNN-encoder-decoder model.
-  - Enhanced recall by 8% to improve immunotherapy research insights.  
-
-</div>  
-
-<script src="../js/theme.js"></script>

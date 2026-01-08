@@ -1,102 +1,97 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-@page{
-  margin:0;
-  padding:0;
+
+@page {
+  margin: 0.4in 0.5in;
+  size: letter;
 }
+
 body {
-  font-family: 'Fira Code', monospace;
-  font-size: 10pt;
-  margin: 0 0.8in;
-  padding-top: 0.3in;
-  padding-bottom: 0.3in;
-  color: #000;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 9.5pt;
+  line-height: 1.4;
+  color: #333;
   background: #fff;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #000;
-  margin: 0.5em 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  color: #000;
-  font-family: 'Fira Code', monospace;
-}
-
+/* Header / Name */
 h1 {
-  font-size: 14pt;
-  font-weight: bold;
+  font-size: 18pt;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 0.15em;
+  letter-spacing: -0.5px;
+}
+
+/* Section headers */
+h2 {
+  font-size: 10pt;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1.5px solid #000;
+  padding-bottom: 0.15em;
+  margin-top: 0.6em;
   margin-bottom: 0.3em;
 }
 
-h2 {
-  font-size: 12pt;
-  font-weight: bold;
-  margin-top: 0.5em;
-  margin-bottom: 0.2em;
+/* Company names */
+h3 {
+  font-size: 9.5pt;
+  font-weight: 600;
+  color: #000;
+  margin-top: 0.35em;
+  margin-bottom: 0;
 }
 
-h3 {
-  font-size: 11pt;
-  font-weight: bold;
-  margin-top: 0.4em;
-  margin-bottom: 0.1em;
+hr {
+  display: none;
 }
 
 p {
   margin: 0;
-  padding: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-}
-
-.header {
-  text-align: center;
-  margin-bottom: -1em;
-}
-
-.header p {
-  font-size: 10pt;
-  margin: 0;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
-  margin-top: 0.5em;
-}
-
-.section {
-  margin-top: 1em;
+a {
+  color: #333;
+  text-decoration: none;
 }
 
 ul {
-  padding-left: 1em;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-left: 1.1em;
+  margin: 0.1em 0 0.2em 0;
 }
 
 li {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.08em;
 }
 
-.contact{
-  display: flex;
-  gap:10px;
-  border-bottom: 1px solid #000;
+/* Flex containers for job titles with dates */
+div[style*="display:flex"] {
+  margin: 0;
+  font-size: 9.5pt;
 }
-.contact-item{
-  margin:5px;
+
+/* Tech stacks in italics */
+p > em, div + p > em {
+  font-size: 8.5pt;
+  color: #555;
 }
-.web-only{
+
+/* Strong tags in skills */
+strong {
+  font-weight: 600;
+}
+
+.web-only {
   display: none;
+}
+
+/* Education list styling */
+div[style*="display:flex"] > * {
+  margin: 0;
 }

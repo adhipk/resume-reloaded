@@ -187,38 +187,6 @@
 		border:0px;
 	}
 	
-	/* Theme toggle button */
-	.theme-toggle {
-		position: fixed;
-		top: 20px;
-		right: 20px;
-		background-color: var(--bg);
-		color: var(--fg);
-		border: 1px solid var(--border);
-		border-radius: 50%;
-		width: 50px;
-		height: 50px;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
-		z-index: 1000;
-		transition: all 0.3s ease;
-	}
-
-	.theme-toggle:hover {
-		background-color: var(--orange);
-		color: var(--bg);
-		border-color: var(--orange);
-		box-shadow: 0 4px 8px rgba(255, 149, 0, 0.3);
-	}
-
-	.theme-toggle svg {
-		width: 24px;
-		height: 24px;
-		fill: currentColor;
-		stroke: currentColor;
-	}
 }
 .print-only{
 	display: none;

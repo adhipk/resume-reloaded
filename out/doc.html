@@ -23,94 +23,89 @@ vertical-align: middle;
 }
 .display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
-  <style type="text/css">*{
-margin:0;
-padding:0;
+  <style type="text/css">* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-@page{
-margin:0;
-padding:0;
+@page {
+margin: 0.4in 0.5in;
+size: letter;
 }
 body {
-font-family: 'Fira Code', monospace;
-font-size: 10pt;
-margin: 0 0.8in;
-padding-top: 0.3in;
-padding-bottom: 0.3in;
-color: #000;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 9.5pt;
+line-height: 1.4;
+color: #333;
 background: #fff;
 }
-hr {
-border: none;
-border-top: 1px solid #000;
-margin: 0.5em 0;
-}
-h1, h2, h3, h4, h5, h6 {
-margin: 0;
-color: #000;
-font-family: 'Fira Code', monospace;
-}
+
 h1 {
-font-size: 14pt;
-font-weight: bold;
+font-size: 18pt;
+font-weight: 600;
+color: #000;
+margin-bottom: 0.15em;
+letter-spacing: -0.5px;
+}
+
+h2 {
+font-size: 10pt;
+font-weight: 600;
+color: #000;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+border-bottom: 1.5px solid #000;
+padding-bottom: 0.15em;
+margin-top: 0.6em;
 margin-bottom: 0.3em;
 }
-h2 {
-font-size: 12pt;
-font-weight: bold;
-margin-top: 0.5em;
-margin-bottom: 0.2em;
-}
+
 h3 {
-font-size: 11pt;
-font-weight: bold;
-margin-top: 0.4em;
-margin-bottom: 0.1em;
+font-size: 9.5pt;
+font-weight: 600;
+color: #000;
+margin-top: 0.35em;
+margin-bottom: 0;
+}
+hr {
+display: none;
 }
 p {
 margin: 0;
-padding: 0;
 }
-.container {
-max-width: 800px;
-margin: auto;
-}
-.header {
-text-align: center;
-margin-bottom: -1em;
-}
-.header p {
-font-size: 10pt;
-margin: 0;
-}
-.contact {
-display: flex;
-justify-content: center;
-gap: 1em;
-margin-top: 0.5em;
-}
-.section {
-margin-top: 1em;
+a {
+color: #333;
+text-decoration: none;
 }
 ul {
-padding-left: 1em;
-margin-top: 0;
-margin-bottom: 0;
+padding-left: 1.1em;
+margin: 0.1em 0 0.2em 0;
 }
 li {
-margin-bottom: 0.2em;
+margin-bottom: 0.08em;
 }
-.contact{
-display: flex;
-gap:10px;
-border-bottom: 1px solid #000;
+
+div[style*="display:flex"] {
+margin: 0;
+font-size: 9.5pt;
 }
-.contact-item{
-margin:5px;
+
+p > em, div + p > em {
+font-size: 8.5pt;
+color: #555;
 }
-.web-only{
+
+strong {
+font-weight: 600;
+}
+.web-only {
 display: none;
-}</style>
+}
+
+div[style*="display:flex"] > * {
+margin: 0;
+}
+</style>
 </head>
 <body>
 <header id="title-block-header">
@@ -126,168 +121,108 @@ display: none;
 Thousand Oaks, California</p>
 <p><a href="https://adhipk.dev">adhipk.dev</a> | <a href="https://linkedin.com/in/adhip-kashyap">linkedin.com/in/adhip-kashyap</a>
 | <a href="https://github.com/adhipk">github.com/adhipk</a></p>
-<p>AI Software Engineer at Hoag Hospital building production AI systems
-for healthcare automation. M.S. Computer Science from Arizona State
-University with expertise in AI systems, backend architecture, and
-autonomous agent design.</p>
 <hr />
-<h2 id="technologies-and-languages">Technologies and Languages</h2>
+<h2 id="skills">Skills</h2>
 <p><strong>Languages:</strong> Java, Python, C/C++, TypeScript, Rust,
-PHP, GoLang, NodeJS.<br />
-<strong>Cloud &amp; DevOps:</strong> AWS (S3, DynamoDB, Lambda, IAM,
-CloudFormation, SQS, SNS),Azure, Databricks,Github CI/CD, DigitalOcean,
-Kubernetes, Docker, Terraform, CI/CD, GCP, Azure.<br />
-<strong>Frameworks &amp; Libraries:</strong> Spring Boot, Next.js,
-React.js, Django, FastAPI, TensorFlow, PyTorch<br />
-<strong>Databases:</strong> MySQL, PostgreSQL, MongoDB, Cassandra,
-DynamoDB, SQLite<br />
-<strong>Other:</strong> Git, Postman, Bash Scripting, Linux, JIRA,
-Test-driven Development.</p>
+GoLang, NodeJS | <strong>Cloud:</strong> AWS, Azure, GCP, Kubernetes,
+Docker, Terraform | <strong>Frameworks:</strong> Spring Boot, Next.js,
+React, Django, FastAPI, TensorFlow | <strong>Databases:</strong>
+PostgreSQL, MongoDB, Redis, Neo4j, DynamoDB</p>
 <hr />
-<h2 id="work-experience">Work Experience</h2>
+<h2 id="experience">Experience</h2>
 <h3 id="hoag-hospital-newport-beach-ca">Hoag Hospital, Newport Beach,
 CA</h3>
 <div style="display:flex; justify-content:space-between;">
-<p>AI Software Engineer</p>
+<p><strong>AI Software Engineer</strong></p>
 <p>Oct 2025 – Present</p>
 </div>
-<p><em>TypeScript, Node.js, Terraform, ElevenLabs, GPT, Deepgram, Vapi,
-YAML/Markdown Parsers, EHR Epic</em></p>
 <ul>
-<li>Developed AI call center agents to automate appointment calls,
-processing ~3,000 calls with an 80% call deflection rate.</li>
-<li>Developed custom GitOps to manage agent configs using git version
-control and automated scripts to deploy, simplifying syncing between
-dev, stage, and prod environments.</li>
-<li>Spearheaded development of comprehensive eval harness with automated
-customer agent simulation evaluated by judge LLM, including scripts to
-automate test case creation using existing transcripts for regression
+<li>Faced with high call center volume, designed and deployed AI voice
+agents using GPT and Vapi to automate patient appointment scheduling,
+achieving 80% call deflection across 3,000+ monthly calls.</li>
+<li>Identified config drift issues across environments; implemented
+GitOps pipeline with Terraform to manage agent configurations,
+eliminating deployment inconsistencies between dev, stage, and
+prod.</li>
+<li>Needed reliable quality assurance for AI agents; built comprehensive
+eval harness with LLM-judged simulations, enabling automated regression
 testing and compliance reporting.</li>
 </ul>
 <h3 id="techahead-remote">TechAhead, Remote</h3>
 <div style="display:flex; justify-content:space-between;">
-<p>Client Solutions Architect</p>
+<p><strong>Client Solutions Architect</strong></p>
 <p>Apr 2025 – Present</p>
 </div>
-<p><em>System Design, Backend Architecture, AI Integration, Cost
-Analysis</em></p>
 <ul>
-<li>Created technical architecture proposals for potential clients and
-designed scalable backend systems.</li>
-<li>Coordinated with clients and developers to ensure alignment on
-feature development and project requirements.</li>
-<li>Consulted on AI integration strategies for client projects and
-developed internal AI tools to automate proposal creation.</li>
-<li>Calculated and optimized system costs for proposed solutions.</li>
+<li>Tasked with winning new clients, created technical architecture
+proposals and designed scalable backend systems, contributing to
+successful client acquisitions.</li>
+<li>Recognized inefficiency in proposal workflow; developed internal AI
+tools to automate proposal generation, reducing turnaround time
+significantly.</li>
 </ul>
 <h3 id="teaching-solved-tempe-az">Teaching Solved, Tempe, AZ</h3>
 <div style="display:flex; justify-content:space-between;">
-<p>Founding Engineer</p>
+<p><strong>Founding Engineer</strong></p>
 <p>Aug 2024 – Mar 2025</p>
 </div>
-<p><em>Next.js, React, Tailwind, PostgreSQL, AWS Lambda, S3, Stripe,
-Clerk, Posthog, Google analytics, Sentry</em></p>
 <ul>
-<li>Designed and implemented a full-stack platform for teachers to
-create, share, and sell language resources – integrating authentication,
-payments, file management, analytics, and error tracking to serve 1,000+
-educators.</li>
-<li>Developed a custom RAG solution to enhance search results based on
-cultural and linguistic relevance.</li>
+<li>As first engineer, architected and built full-stack platform
+(Next.js, PostgreSQL, AWS) enabling 1,000+ educators to create, share,
+and monetize language learning resources.</li>
+<li>Users struggled to find relevant content; developed custom RAG-based
+search to surface culturally and linguistically relevant results,
+improving content discovery.</li>
 </ul>
 <h3 id="induzbuy-bangalore-india">InduzBuy, Bangalore, India</h3>
 <div style="display:flex; justify-content:space-between;">
-<p>Software Engineer Intern</p>
+<p><strong>Software Engineer Intern</strong></p>
 <p>May 2023 – Aug 2023</p>
 </div>
-<p><em>Laravel, EC2, BERT, Python, TensorFlow</em></p>
 <ul>
-<li>Improved modularity and cut feature lead time by 20% by migrating
-from core PHP to Laravel.</li>
-<li>Reduced data processing time from 30 mins to 30 secs with a 95%
-accurate BERT-based model.</li>
-<li>Decreased deployment errors by 40% by automating EC2 deployments via
-bash scripting.</li>
+<li>Legacy PHP codebase slowed development; led migration to Laravel
+framework, cutting feature lead time by 20% and reducing deployment
+errors by 40%.</li>
+<li>Manual data processing took 30+ minutes; built BERT-based
+classification model with 95% accuracy, reducing processing time to 30
+seconds.</li>
 </ul>
 <h3 id="icici-lombard-gic-bangalore-india">ICICI Lombard GIC, Bangalore,
 India</h3>
 <div style="display:flex; justify-content:space-between;">
-<p>Software Engineer</p>
+<p><strong>Software Engineer</strong></p>
 <p>Oct 2019 – Aug 2022</p>
 </div>
-<p><em>Java, Spring Boot, Neo4j, Redis, SQL, React.js, React
-Native</em></p>
 <ul>
-<li>Reduced AWS costs by 30% by migrating a monolith to microservices
-with auto-scalers.</li>
-<li>Improved insurance premium computation speed by 40% using a
-Neo4j-based decision tree.</li>
-<li>Cut call center revenue loss by 20% during COVID by building a React
-Native CRM app for sales teams.</li>
-</ul>
-<h3 id="autoninja-bangalore-india">Autoninja, Bangalore, India</h3>
-<div style="display:flex; justify-content:space-between;">
-<p>Software Engineer</p>
-<p>Jan 2019 – Oct 2019</p>
-</div>
-<p><em>Java, Spring Boot, ELK Stack, Sentry</em></p>
-<ul>
-<li>Decreased support calls by 20% by developing real-time car delivery
-tracking.</li>
-<li>Reduced error response times by 70% by implementing internal ELK
-dashboards to catch misconfigurations in customer deployments.</li>
-<li>Cut ticket resolution time by 15% by optimizing customer support
-processes.</li>
+<li>Infrastructure costs were unsustainable; migrated monolithic
+application to auto-scaling microservices architecture, reducing AWS
+costs by 30%.</li>
+<li>Slow premium calculations frustrated users; implemented Neo4j-based
+decision tree engine, improving computation speed by 40%.</li>
 </ul>
 <hr />
 <h2 id="education">Education</h2>
 <div style="display:flex; justify-content:space-between;">
-<ul>
-<li>M.S. Computer Science, Arizona State University, Tempe</li>
-</ul>
+<p>M.S. Computer Science, Arizona State University</p>
 <p>2022 – 2024</p>
 </div>
 <div style="display:flex; justify-content:space-between;">
-<ul>
-<li>B.Sc. Mechanical Engineering (Minor: CS), PES University,
-Bangalore</li>
-</ul>
+<p>B.Sc. Mechanical Engineering (Minor: CS), PES University</p>
 <p>2015 – 2019</p>
 </div>
 <hr />
 <h2 id="projects">Projects</h2>
-<div style="display:flex; justify-content:space-between;">
-<p><strong>Open Source MathNotes Application</strong></p>
-<p>Feb 2025</p>
-</div>
-<p><em>Python,TensorFlow, tldraw, pic2text, Sympy</em></p>
-<ul>
-<li>Created an open-source MathNotes application to automatically solve
-handwritten university-level mathematical equations with an accuracy of
-85%.</li>
-</ul>
-<div style="display:flex; justify-content:space-between;">
-<p><strong>Scalable Data Processing Pipeline</strong></p>
-<p>Jan 2023</p>
-</div>
-<p><em>Apache Spark, Kubernetes, Scala, Hadoop, Neo4j</em></p>
-<ul>
-<li>Leveraged 10M+ NYC taxi records and created an ETL pipline to model
-trip patterns using PageRank and hotspot detection.</li>
-</ul>
+<p><strong>LibriCasts</strong> (<a href="https://libricasts.adhipk.dev">libricasts.adhipk.dev</a>) — Built
+open-source tool integrating LibriVox audiobooks with PocketCasts,
+serving thousands of users.</p>
+<p><strong>Downmark</strong> (<a href="https://downmark.fly.dev">downmark.fly.dev</a>) — Created
+webpage-to-Markdown converter handling JS-rendered content using Chrome
+Headless.</p>
 <div class="web-only">
-<div style="display:flex; justify-content:space-between;">
-<p><strong>TCR-Epitope Binding Affinity Prediction</strong></p>
-<p>Sep 2023</p>
+<p><strong>Medical Videos Chatbot</strong> (<a href="https://medical-videos-chatbot.vercel.app/">Demo</a>) —
+Interactive chatbot for querying medical video content using NLP.</p>
+<p><strong>Object Detection Benchmark</strong> (<a href="https://obj-detect-bench.vercel.app/">Demo</a>) — Benchmarking app
+comparing CNN architectures for on-device detection.</p>
 </div>
-<p><em>CNN, Encoder-Decoder, TensorFlow</em></p>
-<ul>
-<li>Achieved 81% accuracy on 500k+ antigen sequences with a hybrid
-CNN-encoder-decoder model.</li>
-<li>Enhanced recall by 8% to improve immunotherapy research
-insights.</li>
-</ul>
-</div>
-<script src="../js/theme.js"></script>
 </body>
 </html>
