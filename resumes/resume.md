@@ -9,10 +9,10 @@ target: index
   <img src="profile_pic.png" alt="Adhip Kashyap" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; border: 3px solid var(--orange);" />
 </div>
 
-  <button class="download-button web-only" onClick="window.print()">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-down"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M12 18v-6"/><path d="m9 15 3 3 3-3"/></svg>
-    `Save PDF`
-  </button>
+<a href="/pdf" class="download-button web-only" download>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+  Download PDF
+</a>
 
 
 [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) | Thousand Oaks, California

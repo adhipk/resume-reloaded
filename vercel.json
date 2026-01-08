@@ -1,3 +1,13 @@
 {
-    "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/pdf",
+      "destination": "/Adhip_Kashyap_resume.pdf"
+    },
+    {
+      "source": "/resume",
+      "destination": "/Adhip_Kashyap_resume.pdf"
+    }
+  ]
 }
