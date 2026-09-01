@@ -29,18 +29,19 @@ target: index
 
 ## Experience
 
-### Hoag Hospital, Newport Beach, CA
-<div style="display:flex; justify-content:space-between;">
-<strong>AI Software Engineer</strong>
 
-Oct 2025 – Present
+### TechAhead, Agoura Hils, CA
+<div style="display:flex; justify-content:space-between;">
+<strong>AI Software Engineer </strong>Hoag Medical Group, Newport Beach,CA
+
+Oct 2025 - Present
 </div>
 
 - Faced with high call center volume, designed and deployed AI voice agents using GPT and Vapi to automate patient appointment scheduling, achieving 80% call deflection across 3,000+ monthly calls.
 - Identified config drift issues across environments; implemented GitOps pipeline with Terraform to manage agent configurations, eliminating deployment inconsistencies between dev, stage, and prod.
 - Needed reliable quality assurance for AI agents; built comprehensive eval harness with LLM-judged simulations, enabling automated regression testing and compliance reporting.
 
-### TechAhead, Remote
+
 <div style="display:flex; justify-content:space-between;">
 <strong>Client Solutions Architect</strong>
 
@@ -49,6 +50,7 @@ Apr 2025 – Present
 
 - Tasked with winning new clients, created technical architecture proposals and designed scalable backend systems, contributing to successful client acquisitions.
 - Recognized inefficiency in proposal workflow; developed internal AI tools to automate proposal generation, reducing turnaround time significantly.
+
 
 ### Teaching Solved, Tempe, AZ
 <div style="display:flex; justify-content:space-between;">
