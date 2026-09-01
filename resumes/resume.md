@@ -30,7 +30,7 @@ target: index
 ## Experience
 
 
-### TechAhead, Agoura Hils, CA
+### TechAhead, Agoura Hills, CA
 <div style="display:flex; justify-content:space-between;">
 <strong>AI Software Engineer </strong>Hoag Medical Group, Newport Beach,CA
 
