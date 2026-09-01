@@ -28,7 +28,7 @@ canonical: https://adhipk.dev
       <div class="intro">
         <h2>Hey, I’m Adhip.</h2>
         <p>I build production voice AI for healthcare end to end—from development and deployment through operations, monitoring, and evaluation—creating the tools I need along the way.</p>
-        <p>Outside work, I build publishing tools, coding-agent workspaces, experimental fonts, and Android hardware utilities.</p>
+        <p>Outside work, I build speech tools, coding-agent review and task workflows, cloud scaffolding, and Android and macOS utilities.</p>
       </div>
 
       <nav class="social-links" aria-label="Find Adhip online">
@@ -76,11 +76,12 @@ canonical: https://adhipk.dev
     <section class="panel projects" id="projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0">
       <h1>Projects</h1>
       <div class="project-grid">
-        <article><h2>Cloudflare Devkit</h2><p>Bun and TypeScript scaffolds plus reusable GitHub Actions for Workers, Hono APIs, scheduled jobs, D1, and R2.</p><a href="https://github.com/adhipk/cloudflare-devkit">Source ↗</a></article>
-        <article><h2>Dotlocal</h2><p>Local-first editor and publisher for data stories, with Marimo WASM notebooks and Cloudflare publishing.</p></article>
-        <article><h2>Hyperspace</h2><p>HTML-first workspace for coding-agent sessions, live task state, and project artifacts over SSE.</p></article>
-        <article><h2>Sojournal Sans</h2><p>OpenType font that makes raw Markdown read like rendered Markdown without changing the text.</p><a href="https://github.com/adhipk/sojournal-font">Source ↗</a></article>
-        <article><h2>ADB Phone Lab</h2><p>CLI for Android sensors, secure-camera capture, webcam switching, recording, and OBS.</p><a href="https://github.com/adhipk/adb-phone-lab">Source ↗</a></article>
+        <article><h2>Cloudflare Devkit</h2><p>Bun and TypeScript scaffolding, validation, and reusable GitHub Actions for Workers Assets, Hono APIs, and scheduled Workers.</p><a href="https://github.com/adhipk/cloudflare-devkit">Source ↗</a></article>
+        <article><h2>Hyperspace</h2><p>Browser review surface for agent-authored HTML with inline comments, targeted edits, autosave, and local persistence.</p><a href="https://github.com/adhipk/hyperspacexplorer">Source ↗</a></article>
+        <article><h2>KittenTTS CLI</h2><p><code>say</code>-like TTS tool with Markdown cleanup, chunked streaming, WAV output, file watching, and lazy voice cloning.</p><a href="https://github.com/adhipk/kittentts-cli">Source ↗</a></article>
+        <article><h2>Tuxedo Project Todo</h2><p>Concurrency-safe project task wrapper that serializes agent writes, recovers stale locks, and preserves project ledgers.</p><a href="https://github.com/adhipk/tuxedo-project-todo">Source ↗</a></article>
+        <article><h2>macOS Default Apps</h2><p>CLI for inspecting and changing file, URL-scheme, and existing-file handlers through AppKit and <code>duti</code>.</p><a href="https://github.com/adhipk/macos-default-apps">Source ↗</a></article>
+        <article><h2>ADB Phone Lab</h2><p>CLI for Android sensors, secure-camera capture, webcam diagnostics, screenshots, and <code>scrcpy</code> recording.</p><a href="https://github.com/adhipk/adb-phone-lab">Source ↗</a></article>
       </div>
     </section>
   </main>
@@ -121,11 +122,11 @@ AI software engineer building and operating production healthcare voice assistan
 
 ## Selected Projects
 
-**Cloudflare Devkit** - Built a Bun/TypeScript toolkit with validated starter shapes and reusable GitHub Actions, standardizing how Workers, Hono APIs, scheduled jobs, D1, and R2 services are created and shipped. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
+**Cloudflare Devkit** - Built a Bun/TypeScript toolkit for scaffolding and validating Workers projects, plus reusable GitHub Actions for consistent deployment. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
 
-**Dotlocal** - Built a local-first editor and publisher for technical data stories, combining live preview and in-browser Marimo notebooks with project-scoped Cloudflare publishing so source remains portable.
+**KittenTTS CLI** - Built a `say`-like TTS CLI with Markdown cleanup, chunked streaming, WAV output, file watching, and lazy voice cloning. [github.com/adhipk/kittentts-cli](https://github.com/adhipk/kittentts-cli)
 
-**Hyperspace** - Built an HTML-first workspace that unifies coding-agent sessions, live task state, and project artifacts over an append-only event stream with live SSE updates.
+**Hyperspace** - Built a browser review surface for agent-authored HTML with inline comments, targeted edits, autosave, and local persistence. [github.com/adhipk/hyperspacexplorer](https://github.com/adhipk/hyperspacexplorer)
 
 ## Skills
 

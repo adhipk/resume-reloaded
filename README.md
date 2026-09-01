@@ -17,6 +17,9 @@ Generated artifacts land in `out/`:
 - `Adhip_Kashyap_resume.pdf` — printable résumé
 - static assets, redirects, robots, and sitemap files
 
+`out/` is disposable. Each build stages a complete replacement and swaps it in
+only after every HTML, PDF, and asset generation step succeeds.
+
 ## Preview and deploy
 
 ```bash
