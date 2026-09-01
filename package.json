@@ -1,0 +1,14 @@
+{
+  "name": "resume-reloaded",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "bun run build && wrangler dev",
+    "deploy": "bun run build && wrangler deploy",
+    "deploy:dry": "bun run build && wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.110.0"
+  }
+}
