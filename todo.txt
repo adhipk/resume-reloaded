@@ -3,3 +3,4 @@ x 2026-07-13 2026-07-13 Migrate and verify the resume website on Cloudflare +res
 x 2026-07-13 2026-07-13 Redesign and rebuild the resume website +resume-reloaded @agent id:2041e2c0-704c-4ebb-b4a9-49f18436288f owner:root
 x 2026-07-13 2026-07-13 Remove stale legacy resume artifacts and reverify Cloudflare deployment +resume-reloaded @agent id:f3c08d57-1867-4f7a-b4ea-849eeebb9262 owner:root
 x 2026-07-13 2026-07-13 Restore existing design language and tighten copy +resume-reloaded @agent id:4000ab26-9b9e-499e-8d99-a09134606faf owner:root
+x 2026-07-13 2026-07-13 Tighten homepage intro copy +resume-reloaded @agent id:8ed39f91-cf58-4d13-ab61-b8878ad6d226 owner:root
