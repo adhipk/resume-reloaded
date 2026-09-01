@@ -1,6 +1,6 @@
 # Resume Reloaded
 
-The source and deployment configuration for [adhipk.dev](https://adhipk.dev). A single Markdown file produces a warm editorial portfolio site and a conservative one-page PDF résumé.
+The source and deployment configuration for [adhipk.dev](https://adhipk.dev). A single Markdown file produces a compact Gruvbox portfolio and a one-page PDF résumé.
 
 ## Build
 
@@ -13,7 +13,7 @@ bun run build
 
 Generated artifacts land in `out/`:
 
-- `index.html` — semantic, JavaScript-free portfolio
+- `index.html` — semantic tabbed portfolio with a no-script fallback
 - `Adhip_Kashyap_resume.pdf` — printable résumé
 - static assets, redirects, robots, and sitemap files
 

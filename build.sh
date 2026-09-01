@@ -13,7 +13,7 @@ for command in pandoc weasyprint; do
   fi
 done
 
-mkdir -p "$OUTPUT_DIR/css"
+mkdir -p "$OUTPUT_DIR/css" "$OUTPUT_DIR/assets"
 
 pandoc \
   --from markdown+smart+fenced_divs \
@@ -36,8 +36,9 @@ pandoc \
 
 install -m 0644 "$ROOT_DIR/css/web.css" "$OUTPUT_DIR/css/web.css"
 install -m 0644 "$ROOT_DIR/css/print.css" "$OUTPUT_DIR/css/print.css"
-install -m 0644 "$ROOT_DIR/assets/portrait.webp" "$OUTPUT_DIR/portrait.webp"
+install -m 0644 "$ROOT_DIR/assets/portrait.webp" "$OUTPUT_DIR/assets/profile_pic.webp"
 install -m 0644 "$ROOT_DIR/assets/favicon.svg" "$OUTPUT_DIR/favicon.svg"
+install -m 0644 "$ROOT_DIR/static/tabs.js" "$OUTPUT_DIR/tabs.js"
 install -m 0644 "$ROOT_DIR/static/404.html" "$OUTPUT_DIR/404.html"
 install -m 0644 "$ROOT_DIR/static/robots.txt" "$OUTPUT_DIR/robots.txt"
 install -m 0644 "$ROOT_DIR/static/sitemap.xml" "$OUTPUT_DIR/sitemap.xml"

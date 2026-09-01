@@ -1,122 +1,89 @@
 ---
 title: Adhip Kashyap
 lang: en-US
-description: AI systems engineer and solutions architect building reliable voice AI, evaluation platforms, and developer tools.
+description: AI software engineer building voice AI systems, evaluation tooling, and developer tools.
 canonical: https://adhipk.dev
-target: index
 ---
 
 ```{=html}
 <div class="web-only">
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="hero-copy">
-      <p class="eyebrow">AI systems engineer · Solutions architect</p>
-      <h1 id="hero-title">I turn ambiguous AI workflows into reliable software.</h1>
-      <p class="lede">I design and ship production AI systems, evaluation platforms, and developer tools—with a bias toward observable behavior, reviewable change, and humane interfaces.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="/Adhip_Kashyap_resume.pdf">Read my résumé <span aria-hidden="true">↗</span></a>
-        <a class="button button-secondary" href="mailto:adhip.kashyap@gmail.com">Start a conversation</a>
+  <header class="top-bar">
+    <div class="compact-profile" id="compact-profile" aria-hidden="true">
+      <img src="/assets/profile_pic.webp" width="40" height="40" alt="">
+      <div><strong>Adhip Kashyap</strong><span>AI Software Engineer · Hoag</span></div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Portfolio sections">
+      <button id="tab-overview" role="tab" aria-selected="true" aria-controls="overview" tabindex="0">Overview</button>
+      <button id="tab-experience" role="tab" aria-selected="false" aria-controls="experience" tabindex="-1">Experience</button>
+      <button id="tab-projects" role="tab" aria-selected="false" aria-controls="projects" tabindex="-1">Projects</button>
+    </nav>
+  </header>
+
+  <main class="main-content" id="main">
+    <section class="panel overview is-active" id="overview" role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
+      <img class="profile-photo" src="/assets/profile_pic.webp" width="120" height="120" alt="Adhip Kashyap">
+      <h1>Adhip Kashyap</h1>
+      <p class="role-title">AI Software Engineer · Hoag</p>
+
+      <div class="intro">
+        <h2>Hey, I’m Adhip.</h2>
+        <p>I build Hoag’s appointment-scheduling voice agents: how they’re configured, tested, debugged, and connected to scheduling.</p>
+        <p>Outside work, I build publishing tools, coding-agent workspaces, type experiments, and Android hardware utilities.</p>
       </div>
-      <ul class="contact-list" aria-label="Contact and profile links">
-        <li>Thousand Oaks, California</li>
-        <li><a href="https://github.com/adhipk" rel="me">GitHub</a></li>
-        <li><a href="https://linkedin.com/in/adhip-kashyap" rel="me">LinkedIn</a></li>
-      </ul>
-    </div>
-    <figure class="portrait-wrap">
-      <img class="portrait" src="/portrait.webp" width="760" height="1010" alt="Adhip Kashyap outdoors" fetchpriority="high">
-      <figcaption><span class="status-dot" aria-hidden="true"></span> Building dependable AI for healthcare</figcaption>
-    </figure>
-  </section>
 
-  <section class="proof-grid" aria-label="Selected proof points">
-    <article><strong>80/80</strong><span>targeted regression runs passed after a scheduling workflow hardening pass</span></article>
-    <article><strong>6,600+</strong><span>calls reconciled across metadata, structured outputs, transcripts, and tool evidence</span></article>
-    <article><strong>3 envs</strong><span>reviewed promotion and drift detection across development, staging, and production</span></article>
-  </section>
+      <nav class="social-links" aria-label="Find Adhip online">
+        <a href="https://www.linkedin.com/in/adhip-kashyap" rel="me" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.3H3.2V19h3.3V8.3ZM4.8 3a1.9 1.9 0 1 0 0 3.8A1.9 1.9 0 0 0 4.8 3Zm7 5.3H8.6V19h3.3v-5.3c0-1.4.3-2.8 2.1-2.8s1.8 1.7 1.8 2.9V19H19v-5.9c0-2.9-.6-5.1-4-5.1-1.6 0-2.7.9-3.2 1.7V8.3Z"/></svg></a>
+        <a href="https://github.com/adhipk" rel="me" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.2 19.5v-2.2c-2.7.6-3.3-1.1-3.3-1.1-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.8.8.1-.6.4-1.1.7-1.4-2.1-.2-4.4-1.1-4.4-4.9 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .9-.3 2.8 1a9.6 9.6 0 0 1 5 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.7.7 1.1 1.6 1.1 2.7 0 3.8-2.3 4.7-4.5 4.9.4.3.7.9.7 1.8v3A10 10 0 0 0 12 2Z"/></svg></a>
+        <a href="mailto:adhip.kashyap@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm2 2v.4l7 5 7-5V7H5Zm14 10V9.8l-7 5-7-5V17h14Z"/></svg></a>
+        <a href="/Adhip_Kashyap_resume.pdf" aria-label="Résumé PDF"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8l4 4v16H6V2Zm8 1.8V7h3.2L14 3.8ZM8 10v2h8v-2H8Zm0 4v2h8v-2H8Zm0 4v2h5v-2H8Z"/></svg></a>
+      </nav>
+    </section>
 
-  <section class="section" id="work">
-    <div class="section-heading">
-      <p class="section-index">01 / Selected work</p>
-      <h2>Systems built for the messy middle.</h2>
-      <p>My best work sits between model behavior, product workflows, and the infrastructure that makes both trustworthy.</p>
-    </div>
-    <div class="case-list">
-      <article class="case-study">
-        <p class="case-kicker">Delivery platform · Healthcare voice AI</p>
-        <h3>Made a multi-agent system reviewable, testable, and promotable.</h3>
-        <p>Turned assistants, tools, workflows, structured outputs, and simulations into version-controlled resources with schema checks, hash-based drift detection, dry runs, and approval-gated promotion across three environments.</p>
-        <ul class="tags" aria-label="Technologies"><li>TypeScript</li><li>Bun</li><li>GitHub Actions</li><li>LLM evaluations</li></ul>
-      </article>
-      <article class="case-study">
-        <p class="case-kicker">Reliability · Conversational scheduling</p>
-        <h3>Closed the loop between prompt changes and observed behavior.</h3>
-        <p>Designed and hardened routing, qualification, slot selection, patient information, booking, and human handoff workflows. Paired each change with scenario-based evaluations; a focused eight-scenario matrix passed all 80 runs after the latest fixes.</p>
-        <ul class="tags" aria-label="Technologies"><li>Voice AI</li><li>Scenario testing</li><li>Tool orchestration</li><li>Regression analysis</li></ul>
-      </article>
-      <article class="case-study">
-        <p class="case-kicker">Evidence · Call analytics</p>
-        <h3>Tested headline metrics against what actually happened.</h3>
-        <p>Built a PHI-conscious DuckDB pipeline and reproducible report workbench that reconciles platform metadata and structured outputs with transcript and tool evidence across more than 6,600 calls—surfacing reliability gaps before they shaped decisions.</p>
-        <ul class="tags" aria-label="Technologies"><li>DuckDB</li><li>AWS S3</li><li>SQLite</li><li>Reproducible reports</li></ul>
-      </article>
-    </div>
-  </section>
+    <section class="panel experience" id="experience" role="tabpanel" aria-labelledby="tab-experience" tabindex="0">
+      <h1>Experience</h1>
+      <div class="timeline">
+        <article>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <header><div><h2>AI Software Engineer</h2><p>TechAhead · Hoag Medical Group</p></div><time>Oct 2025 — now</time></header>
+          <ul>
+            <li>Ship Hoag’s scheduling voice agents and the versioned config, drift checks, evaluations, and release pipeline behind them.</li>
+            <li>Build routing, scheduling integrations, and call-analysis tools that reconcile agent output with transcript and tool evidence.</li>
+          </ul>
+        </article>
+        <article>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <header><div><h2>Client Solutions Architect</h2><p>TechAhead</p></div><time>Apr 2025 — now</time></header>
+          <p>Turn early product requirements into AI and backend prototypes, system designs, and delivery plans.</p>
+        </article>
+        <article>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <header><div><h2>Founding Engineer</h2><p>Teaching Solved</p></div><time>Aug 2024 — Mar 2025</time></header>
+          <p>Built the first version of an educator platform with Next.js, PostgreSQL, AWS, and retrieval-assisted search.</p>
+        </article>
+        <article>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <header><div><h2>Software Engineer Intern</h2><p>InduzBuy</p></div><time>May 2023 — Aug 2023</time></header>
+          <p>Moved a PHP commerce platform to Laravel and built a BERT classifier for catalog data.</p>
+        </article>
+        <article>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <header><div><h2>Software Engineer</h2><p>ICICI Lombard GIC</p></div><time>Oct 2019 — Aug 2022</time></header>
+          <p>Split insurance services for independent scaling and built a Neo4j rules engine for premium calculations.</p>
+        </article>
+      </div>
+    </section>
 
-  <section class="section" id="experience">
-    <div class="section-heading compact">
-      <p class="section-index">02 / Experience</p>
-      <h2>From architecture to production.</h2>
-    </div>
-    <div class="timeline">
-      <article class="role">
-        <div class="role-meta"><p>TechAhead</p><time datetime="2025-10">2025 — now</time></div>
-        <div><h3>AI Software Engineer <span>for Hoag</span></h3><p>Own the delivery and reliability layers around a healthcare voice-AI system. Extended a NestJS scheduling bridge with FHIR-based batch operations, combo-appointment handling, retryable validation, and fuzzy location matching; built an S3/Vapi call inspector for incident investigation.</p></div>
-      </article>
-      <article class="role">
-        <div class="role-meta"><p>TechAhead</p><time datetime="2025-04">2025 — now</time></div>
-        <div><h3>Client Solutions Architect</h3><p>Translate product discovery into pragmatic AI and backend architectures, prototypes, delivery plans, and technical proposals for client teams.</p></div>
-      </article>
-      <article class="role">
-        <div class="role-meta"><p>Teaching Solved</p><time datetime="2024-08/2025-03">2024 — 2025</time></div>
-        <div><h3>Founding Engineer</h3><p>Built the initial Next.js, PostgreSQL, and AWS product for educators to create and share language-learning resources, including retrieval-assisted discovery for culturally relevant content.</p></div>
-      </article>
-      <article class="role">
-        <div class="role-meta"><p>Earlier</p><time datetime="2019/2023">2019 — 2023</time></div>
-        <div><h3>Software engineering · InduzBuy & ICICI Lombard</h3><p>Modernized a PHP commerce platform, built a BERT classification workflow, decomposed insurance services, and developed a Neo4j decision engine for premium calculations.</p></div>
-      </article>
-    </div>
-  </section>
-
-  <section class="section" id="projects">
-    <div class="section-heading">
-      <p class="section-index">03 / Independent work</p>
-      <h2>Tools I wanted to exist.</h2>
-      <p>Current experiments span local-first publishing, agent interfaces, developer infrastructure, typography, and hardware automation.</p>
-    </div>
-    <div class="project-grid">
-      <article class="project featured"><p class="project-number">P01</p><h3>Cloudflare Devkit</h3><p>A Bun and TypeScript toolkit with validated starter shapes and reusable GitHub Actions for Workers Assets, Hono APIs, scheduled Workers, and D1/R2-ready service shells.</p><a href="https://github.com/adhipk/cloudflare-devkit">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Cloudflare</li><li>TypeScript</li><li>Bun</li></ul></article>
-      <article class="project"><p class="project-number">P02</p><h3>Dotlocal</h3><p>A local-first editor and publisher for technical data stories, combining in-browser editing and live preview with Marimo WASM notebooks and project-scoped Cloudflare publishing.</p><a href="https://github.com/adhipk/data-whiz">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>TypeScript</li><li>Marimo</li><li>Observable Plot</li></ul></article>
-      <article class="project"><p class="project-number">P03</p><h3>Hyperspace</h3><p>An HTML-first browser workspace for coding-agent sessions, live task state, and per-project artifacts, built on a lightweight append-only event spine with real-time SSE updates.</p><a href="https://github.com/adhipk/nearly-headless">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Node.js</li><li>SSE</li><li>Agent tooling</li></ul></article>
-      <article class="project"><p class="project-number">P04</p><h3>Sojournal Sans</h3><p>An experimental OpenType font that makes raw Markdown resemble rendered Markdown while preserving plain text through contextual substitutions and ligatures.</p><a href="https://github.com/adhipk/sojournal-font">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Python</li><li>fontTools</li><li>OpenType</li></ul></article>
-      <article class="project"><p class="project-number">P05</p><h3>ADB Phone Lab</h3><p>A command-line lab for Android hardware experiments: sensor inspection, secure-camera capture, USB webcam switching, orientation-aware recording, and an OBS bridge.</p><a href="https://github.com/adhipk/adb-phone-lab">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>ADB</li><li>Bash</li><li>Node.js</li></ul></article>
-    </div>
-  </section>
-
-  <section class="section capabilities" id="capabilities">
-    <div class="section-heading compact"><p class="section-index">04 / Capabilities</p><h2>A broad stack, used selectively.</h2></div>
-    <div class="capability-grid">
-      <div><h3>AI systems</h3><p>Voice agents, multi-agent orchestration, LLM evaluations, RAG, prompt and tool design, observability.</p></div>
-      <div><h3>Backend & data</h3><p>TypeScript, Bun/Node.js, Python, Java, NestJS, Hono, FHIR, PostgreSQL, SQLite, DuckDB.</p></div>
-      <div><h3>Platforms</h3><p>Cloudflare Workers, AWS, Docker, GitHub Actions, Terraform, React, Next.js.</p></div>
-    </div>
-  </section>
-
-  <section class="closing" id="contact">
-    <p class="section-index">05 / Contact</p>
-    <h2>Have a difficult system to make dependable?</h2>
-    <a href="mailto:adhip.kashyap@gmail.com">adhip.kashyap@gmail.com <span aria-hidden="true">↗</span></a>
-  </section>
+    <section class="panel projects" id="projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0">
+      <h1>Projects</h1>
+      <div class="project-grid">
+        <article><h2>Cloudflare Devkit</h2><p>Bun and TypeScript scaffolds plus reusable GitHub Actions for Workers, Hono APIs, scheduled jobs, D1, and R2.</p><a href="https://github.com/adhipk/cloudflare-devkit">Source ↗</a></article>
+        <article><h2>Dotlocal</h2><p>Local-first editor and publisher for data stories, with Marimo WASM notebooks and Cloudflare publishing.</p></article>
+        <article><h2>Hyperspace</h2><p>HTML-first workspace for coding-agent sessions, live task state, and project artifacts over SSE.</p></article>
+        <article><h2>Sojournal Sans</h2><p>OpenType font that makes raw Markdown read like rendered Markdown without changing the text.</p><a href="https://github.com/adhipk/sojournal-font">Source ↗</a></article>
+        <article><h2>ADB Phone Lab</h2><p>CLI for Android sensors, secure-camera capture, webcam switching, recording, and OBS.</p><a href="https://github.com/adhipk/adb-phone-lab">Source ↗</a></article>
+      </div>
+    </section>
+  </main>
 </div>
 ```
 
@@ -126,44 +93,43 @@ target: index
 [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) · Thousand Oaks, CA · [adhipk.dev](https://adhipk.dev) · [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) · [github.com/adhipk](https://github.com/adhipk)
 </div>
 
-AI systems engineer and solutions architect who builds production voice-AI systems, evaluation platforms, data pipelines, and developer tools. Strongest at turning ambiguous workflows into observable, reviewable software.
+AI software engineer building voice AI systems, evaluation tooling, scheduling integrations, and developer tools.
 
 ## Experience {#resume-experience}
 
 ### TechAhead — AI Software Engineer, Hoag Medical Group <span class="date">Oct 2025 – Present</span>
 
-- Own the delivery platform for a healthcare voice-AI system, managing multi-agent workflows as version-controlled resources with drift detection, schema validation, dry runs, and approval-gated promotion across development, staging, and production.
-- Design and harden conversational scheduling workflows and their regression harness; a focused eight-scenario suite passed 80/80 automated runs after routing, slot-selection, and tool-handoff fixes.
-- Built a PHI-conscious DuckDB analysis pipeline that reconciles structured outputs with call and tool evidence across 6,600+ calls, surfacing reliability gaps in headline automation metrics.
-- Extended a NestJS scheduling bridge with FHIR-based batch operations, combo appointments, retryable validation, and fuzzy location matching; built an AWS S3/Vapi call inspector for incident investigation.
+- Ship Hoag’s scheduling voice agents and the versioned configuration, drift checks, evaluations, and release pipeline behind them.
+- Build routing, scheduling integrations, and call-analysis tools that reconcile agent output with transcript and tool evidence.
+- Extend the scheduling bridge with FHIR batch operations, combo appointments, retryable validation, fuzzy location matching, and incident-inspection tooling.
 
 ### TechAhead — Client Solutions Architect <span class="date">Apr 2025 – Present</span>
 
-- Translate discovery into pragmatic AI and backend architectures, prototypes, delivery plans, and technical proposals for client teams.
+- Turn early product requirements into AI and backend prototypes, system designs, and delivery plans.
 
 ### Teaching Solved — Founding Engineer <span class="date">Aug 2024 – Mar 2025</span>
 
-- Built the initial Next.js, PostgreSQL, and AWS platform for educators to create and share language-learning resources, including retrieval-assisted discovery for culturally relevant content.
+- Built the first version of an educator platform with Next.js, PostgreSQL, AWS, and retrieval-assisted search.
 
 ### InduzBuy — Software Engineer Intern <span class="date">May 2023 – Aug 2023</span>
 
-- Modernized a PHP commerce platform with Laravel and built a BERT-based classification workflow for previously manual data processing.
+- Moved a PHP commerce platform to Laravel and built a BERT classifier for catalog data.
 
 ### ICICI Lombard GIC — Software Engineer <span class="date">Oct 2019 – Aug 2022</span>
 
-- Decomposed insurance services for independent scaling and built a Neo4j decision engine for premium calculations.
+- Split insurance services for independent scaling and built a Neo4j rules engine for premium calculations.
 
 ## Selected Projects
 
-**Cloudflare Devkit** — Built a Bun/TypeScript toolkit with validated starter shapes and reusable GitHub Actions for Workers Assets, Hono APIs, scheduled Workers, and D1/R2-ready service shells. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
+**Cloudflare Devkit** — Bun and TypeScript scaffolds plus reusable GitHub Actions for Workers, Hono APIs, scheduled jobs, D1, and R2. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
 
-**Dotlocal** — Built a local-first editor and publisher for technical data stories with live preview, Marimo WASM notebooks, and project-scoped Cloudflare publishing. [github.com/adhipk/data-whiz](https://github.com/adhipk/data-whiz)
+**Dotlocal** — Local-first editor and publisher for data stories, with Marimo WASM notebooks and Cloudflare publishing.
 
-**Hyperspace** — Built an HTML-first browser workspace for coding-agent sessions, live task state, and per-project artifacts on an append-only event spine with real-time SSE updates. [github.com/adhipk/nearly-headless](https://github.com/adhipk/nearly-headless)
+**Hyperspace** — HTML-first workspace for coding-agent sessions, live task state, and project artifacts over SSE.
 
 ## Skills
 
-**AI:** Voice agents, multi-agent orchestration, LLM evaluations, RAG, observability · **Backend & data:** TypeScript, Bun/Node.js, Python, Java, NestJS, Hono, FHIR, PostgreSQL, SQLite, DuckDB · **Platforms:** Cloudflare Workers, AWS, Docker, GitHub Actions, Terraform, React, Next.js
+**AI:** Voice agents, agent orchestration, LLM evaluations, RAG, observability · **Backend & data:** TypeScript, Bun/Node.js, Python, Java, NestJS, Hono, FHIR, PostgreSQL, SQLite, DuckDB · **Platforms:** Cloudflare Workers, AWS, Docker, GitHub Actions, Terraform, React, Next.js
 
 ## Education
 
