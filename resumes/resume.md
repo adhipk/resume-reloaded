@@ -28,7 +28,7 @@ canonical: https://adhipk.dev
       <div class="intro">
         <h2>Hey, I’m Adhip.</h2>
         <p>I build production voice AI for healthcare end to end—from development and deployment through operations, monitoring, and evaluation—creating the tools I need along the way.</p>
-        <p>Outside work, I build the tools I want to exist.</p>
+        <p>Outside work, I build publishing tools, coding-agent workspaces, experimental fonts, and Android hardware utilities.</p>
       </div>
 
       <nav class="social-links" aria-label="Find Adhip online">
@@ -93,39 +93,39 @@ canonical: https://adhipk.dev
 [adhip.kashyap@gmail.com](mailto:adhip.kashyap@gmail.com) · Thousand Oaks, CA · [adhipk.dev](https://adhipk.dev) · [linkedin.com/in/adhip-kashyap](https://linkedin.com/in/adhip-kashyap) · [github.com/adhipk](https://github.com/adhipk)
 </div>
 
-AI software engineer building voice AI systems, evaluation tooling, scheduling integrations, and developer tools.
+AI software engineer building and operating production healthcare voice assistants end to end, from conversational workflows and scheduling integrations to versioned delivery, evaluation, observability, and incident response.
 
 ## Experience {#resume-experience}
 
-### TechAhead — AI Software Engineer, Hoag Medical Group <span class="date">Oct 2025 – Present</span>
+### TechAhead - AI Software Engineer, Hoag Medical Group <span class="date">Oct 2025 - Present</span>
 
-- Ship Hoag’s scheduling voice agents and the versioned configuration, drift checks, evaluations, and release pipeline behind them.
-- Build routing, scheduling integrations, and call-analysis tools that reconcile agent output with transcript and tool evidence.
-- Extend the scheduling bridge with FHIR batch operations, combo appointments, retryable validation, fuzzy location matching, and incident-inspection tooling.
+- Built the GitOps delivery platform for production healthcare voice AI, turning assistants, tools, squads, evaluations, and simulations into versioned resources with schema validation, drift detection, approval-gated promotion, and reversible cutovers, making releases reviewable and reproducible.
+- Designed multi-agent scheduling across intent routing, slot selection, qualification, patient intake, booking, and human handoff; extended the NestJS/FHIR bridge for batch and combo appointments, retryable validation, and fuzzy location matching so failures return actionable recovery paths.
+- Built a PHI-conscious investigation and evaluation stack across Vapi, AWS S3, SQLite, and DuckDB, joining transcripts, recordings, tool events, and structured outputs to turn call failures into reproducible regressions and evidence-backed reliability decisions.
 
-### TechAhead — Client Solutions Architect <span class="date">Apr 2025 – Present</span>
+### TechAhead - Client Solutions Architect <span class="date">Apr 2025 - Present</span>
 
-- Turn early product requirements into AI and backend prototypes, system designs, and delivery plans.
+- Translate ambiguous product discovery into AI and backend architectures, working prototypes, cost-aware delivery plans, and technical proposals that align client goals with what engineering can ship.
 
-### Teaching Solved — Founding Engineer <span class="date">Aug 2024 – Mar 2025</span>
+### Teaching Solved - Founding Engineer <span class="date">Aug 2024 - Mar 2025</span>
 
-- Built the first version of an educator platform with Next.js, PostgreSQL, AWS, and retrieval-assisted search.
+- Architected and shipped the initial educator marketplace across Next.js, PostgreSQL, and AWS, integrating authentication, payments, file delivery, analytics, and retrieval-assisted discovery for culturally relevant content.
 
-### InduzBuy — Software Engineer Intern <span class="date">May 2023 – Aug 2023</span>
+### InduzBuy - Software Engineer Intern <span class="date">May 2023 - Aug 2023</span>
 
-- Moved a PHP commerce platform to Laravel and built a BERT classifier for catalog data.
+- Modernized a legacy PHP commerce platform in Laravel, automated its deployment path, and replaced manual catalog processing with a repeatable BERT classification workflow.
 
-### ICICI Lombard GIC — Software Engineer <span class="date">Oct 2019 – Aug 2022</span>
+### ICICI Lombard GIC - Software Engineer <span class="date">Oct 2019 - Aug 2022</span>
 
-- Split insurance services for independent scaling and built a Neo4j rules engine for premium calculations.
+- Decomposed insurance services for independent scaling and built a Neo4j decision engine that made complex premium rules easier to change, trace, and test.
 
 ## Selected Projects
 
-**Cloudflare Devkit** — Bun and TypeScript scaffolds plus reusable GitHub Actions for Workers, Hono APIs, scheduled jobs, D1, and R2. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
+**Cloudflare Devkit** - Built a Bun/TypeScript toolkit with validated starter shapes and reusable GitHub Actions, standardizing how Workers, Hono APIs, scheduled jobs, D1, and R2 services are created and shipped. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
 
-**Dotlocal** — Local-first editor and publisher for data stories, with Marimo WASM notebooks and Cloudflare publishing.
+**Dotlocal** - Built a local-first editor and publisher for technical data stories, combining live preview and in-browser Marimo notebooks with project-scoped Cloudflare publishing so source remains portable.
 
-**Hyperspace** — HTML-first workspace for coding-agent sessions, live task state, and project artifacts over SSE.
+**Hyperspace** - Built an HTML-first workspace that unifies coding-agent sessions, live task state, and project artifacts over an append-only event stream with live SSE updates.
 
 ## Skills
 
@@ -133,7 +133,7 @@ AI software engineer building voice AI systems, evaluation tooling, scheduling i
 
 ## Education
 
-**M.S. Computer Science**, Arizona State University <span class="date">2022 – 2024</span><br>
-**B.Sc. Mechanical Engineering, Minor in Computer Science**, PES University <span class="date">2015 – 2019</span>
+**M.S. Computer Science**, Arizona State University <span class="date">2022 - 2024</span><br>
+**B.Sc. Mechanical Engineering, Minor in Computer Science**, PES University <span class="date">2015 - 2019</span>
 
 :::
