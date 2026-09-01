@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+@page { size: letter; margin: .42in .5in; }
+body { margin: 0; color: #161616; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9.35pt; line-height: 1.32; }
+.web-only { display: none !important; }
+.print-only { display: block; }
+#title-block-header { margin: 0; }
+h1.title { margin: 0 0 .08in; font-size: 20pt; line-height: 1; letter-spacing: -.5pt; }
+.resume-contact { margin-bottom: .12in; font-size: 8.35pt; white-space: nowrap; }
+p { margin: 0 0 .08in; }
+a { color: inherit; text-decoration: none; }
+h2 { margin: .14in 0 .06in; padding-bottom: .02in; border-bottom: 1.2pt solid #171717; font-size: 10pt; line-height: 1; letter-spacing: .7pt; text-transform: uppercase; }
+h3 { margin: .08in 0 .025in; font-size: 9.45pt; line-height: 1.15; }
+.date { float: right; color: #444; font-size: 8pt; font-weight: 500; }
+ul { margin: .02in 0 .04in; padding-left: .16in; }
+li { margin: 0 0 .025in; padding-left: .015in; }
+strong { font-weight: 700; }
+hr { display: none; }

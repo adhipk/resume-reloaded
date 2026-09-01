@@ -24,7 +24,7 @@ target: index
       </ul>
     </div>
     <figure class="portrait-wrap">
-      <img class="portrait" src="/portrait.webp" width="760" height="900" alt="Adhip Kashyap outdoors" fetchpriority="high">
+      <img class="portrait" src="/portrait.webp" width="760" height="1010" alt="Adhip Kashyap outdoors" fetchpriority="high">
       <figcaption><span class="status-dot" aria-hidden="true"></span> Building dependable AI for healthcare</figcaption>
     </figure>
   </section>
@@ -70,19 +70,19 @@ target: index
     </div>
     <div class="timeline">
       <article class="role">
-        <div class="role-meta"><p>TechAhead</p><time>2025 — now</time></div>
+        <div class="role-meta"><p>TechAhead</p><time datetime="2025-10">2025 — now</time></div>
         <div><h3>AI Software Engineer <span>for Hoag</span></h3><p>Own the delivery and reliability layers around a healthcare voice-AI system. Extended a NestJS scheduling bridge with FHIR-based batch operations, combo-appointment handling, retryable validation, and fuzzy location matching; built an S3/Vapi call inspector for incident investigation.</p></div>
       </article>
       <article class="role">
-        <div class="role-meta"><p>TechAhead</p><time>2025 — now</time></div>
+        <div class="role-meta"><p>TechAhead</p><time datetime="2025-04">2025 — now</time></div>
         <div><h3>Client Solutions Architect</h3><p>Translate product discovery into pragmatic AI and backend architectures, prototypes, delivery plans, and technical proposals for client teams.</p></div>
       </article>
       <article class="role">
-        <div class="role-meta"><p>Teaching Solved</p><time>2024 — 2025</time></div>
+        <div class="role-meta"><p>Teaching Solved</p><time datetime="2024-08/2025-03">2024 — 2025</time></div>
         <div><h3>Founding Engineer</h3><p>Built the initial Next.js, PostgreSQL, and AWS product for educators to create and share language-learning resources, including retrieval-assisted discovery for culturally relevant content.</p></div>
       </article>
       <article class="role">
-        <div class="role-meta"><p>Earlier</p><time>2019 — 2023</time></div>
+        <div class="role-meta"><p>Earlier</p><time datetime="2019/2023">2019 — 2023</time></div>
         <div><h3>Software engineering · InduzBuy & ICICI Lombard</h3><p>Modernized a PHP commerce platform, built a BERT classification workflow, decomposed insurance services, and developed a Neo4j decision engine for premium calculations.</p></div>
       </article>
     </div>
@@ -95,9 +95,9 @@ target: index
       <p>Current experiments span local-first publishing, agent interfaces, developer infrastructure, typography, and hardware automation.</p>
     </div>
     <div class="project-grid">
-      <article class="project featured"><p class="project-number">P01</p><h3>Cloudflare Devkit</h3><p>A reusable Bun and TypeScript toolkit for scaffolding, validating, publishing, and deploying Cloudflare services—from static sites and Hono APIs to D1, R2, and cron Workers.</p><a href="https://github.com/adhipk/cloudflare-devkit">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Cloudflare</li><li>TypeScript</li><li>Bun</li></ul></article>
-      <article class="project"><p class="project-number">P02</p><h3>Dotlocal</h3><p>A local-first workspace for technical data stories: in-browser editing, live preview, Marimo WASM notebooks, and project-scoped publishing without coupling source files to a deployed site.</p><ul class="tags"><li>TypeScript</li><li>Marimo</li><li>Observable Plot</li></ul></article>
-      <article class="project"><p class="project-number">P03</p><h3>Hyperspace</h3><p>An HTML-first workspace that brings coding-agent sessions, live progress, task state, and per-project artifacts into one browser hub backed by a lightweight event spine.</p><ul class="tags"><li>Node.js</li><li>SSE</li><li>Agent tooling</li></ul></article>
+      <article class="project featured"><p class="project-number">P01</p><h3>Cloudflare Devkit</h3><p>A Bun and TypeScript toolkit with validated starter shapes and reusable GitHub Actions for Workers Assets, Hono APIs, scheduled Workers, and D1/R2-ready service shells.</p><a href="https://github.com/adhipk/cloudflare-devkit">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Cloudflare</li><li>TypeScript</li><li>Bun</li></ul></article>
+      <article class="project"><p class="project-number">P02</p><h3>Dotlocal</h3><p>A local-first editor and publisher for technical data stories, combining in-browser editing and live preview with Marimo WASM notebooks and project-scoped Cloudflare publishing.</p><a href="https://github.com/adhipk/data-whiz">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>TypeScript</li><li>Marimo</li><li>Observable Plot</li></ul></article>
+      <article class="project"><p class="project-number">P03</p><h3>Hyperspace</h3><p>An HTML-first browser workspace for coding-agent sessions, live task state, and per-project artifacts, built on a lightweight append-only event spine with real-time SSE updates.</p><a href="https://github.com/adhipk/nearly-headless">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Node.js</li><li>SSE</li><li>Agent tooling</li></ul></article>
       <article class="project"><p class="project-number">P04</p><h3>Sojournal Sans</h3><p>An experimental OpenType font that makes raw Markdown resemble rendered Markdown while preserving plain text through contextual substitutions and ligatures.</p><a href="https://github.com/adhipk/sojournal-font">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>Python</li><li>fontTools</li><li>OpenType</li></ul></article>
       <article class="project"><p class="project-number">P05</p><h3>ADB Phone Lab</h3><p>A command-line lab for Android hardware experiments: sensor inspection, secure-camera capture, USB webcam switching, orientation-aware recording, and an OBS bridge.</p><a href="https://github.com/adhipk/adb-phone-lab">View source <span aria-hidden="true">↗</span></a><ul class="tags"><li>ADB</li><li>Bash</li><li>Node.js</li></ul></article>
     </div>
@@ -155,9 +155,11 @@ AI systems engineer and solutions architect who builds production voice-AI syste
 
 ## Selected Projects
 
-**Cloudflare Devkit** — Built a Bun/TypeScript toolkit for scaffolding, validating, and deploying Cloudflare services, including Workers, Hono APIs, D1, R2, and reusable GitHub Actions. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
+**Cloudflare Devkit** — Built a Bun/TypeScript toolkit with validated starter shapes and reusable GitHub Actions for Workers Assets, Hono APIs, scheduled Workers, and D1/R2-ready service shells. [github.com/adhipk/cloudflare-devkit](https://github.com/adhipk/cloudflare-devkit)
 
-**Hyperspace** — Built an HTML-first workspace that brings coding-agent sessions, live progress, task state, and per-project artifacts into one browser hub.
+**Dotlocal** — Built a local-first editor and publisher for technical data stories with live preview, Marimo WASM notebooks, and project-scoped Cloudflare publishing. [github.com/adhipk/data-whiz](https://github.com/adhipk/data-whiz)
+
+**Hyperspace** — Built an HTML-first browser workspace for coding-agent sessions, live task state, and per-project artifacts on an append-only event spine with real-time SSE updates. [github.com/adhipk/nearly-headless](https://github.com/adhipk/nearly-headless)
 
 ## Skills
 
